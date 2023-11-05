@@ -9,8 +9,6 @@ config ZMK_SPLIT_ROLE_CENTRAL
 endif
 
 if SHIELD_KODAMA_LEFT || SHIELD_KODAMA_RIGHT
-
 config ZMK_SPLIT
     default y
-
 endif
