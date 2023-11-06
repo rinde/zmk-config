@@ -94,7 +94,7 @@
 				&hs LSHIFT A   &lt MEDIA S   &lt NAV D &hm LC(LS(LALT)) F &kp G      &kp H      &hm LC(LS(LALT)) J    &lt NUM K   &lt FUNC L &hs RSHIFT ENTER
 			//├────────────┼────────────┼────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┤
 			//│  Z         │  X         │  C         │  V         │  B        │   │  N         │  M         │ ,          │ '          │     ?      │
-					   &kp Z        &kp X        &kp C        &kp V       &kp B            &kp N        &kp M     &kp COMMA      &kp SQT     &kp QMARK
+					   &kp Z        &kp X        &kp C        &kp V       &kp B            &kp N        &kp M     &kp COMMA      &kp SQT     &hm RCTL QMARK
 			//╰────────────┴────────────┴────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┴────────────┴────────────╯
 			// 																									
 								  &hm LCTL ESC     &hm LALT TAB          &hm LGUI SPACE       &lt SYM BSPC       &hm RGUI DOT        &hm RALT DEL
