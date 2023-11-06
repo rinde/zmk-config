@@ -90,18 +90,19 @@
 			//│    Q       │  W         │  E         │  R         │  T        │   │  Y         │  U         │  I         │  O         │  P         │
 					   &kp Q        &kp W        &kp E        &kp R       &kp T            &kp Y        &kp U        &kp I        &kp O        &kp P
 			//├────────────┼────────────┼────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┤
-			//│  A         │  S         │  D         │  F         │  G        │   │  H         │  J         │  K         │  L         │     '      │
-					&hm LCTL A   &hm LGUI S   &hm LALT D  &hs LSHIFT F    &kp G        &kp H        &hs RSHIFT J &hm RALT K   &hm RGUI L   &hm RCTL SQT
+			//│  A         │  S         │  D         │  F         │  G        │   │  H         │  J         │  K         │  L         │    ENTER   │
+				&hs LSHIFT A   &lt MEDIA S   &lt NAV D &hm LC(LS(LALT)) F &kp G      &kp H      &hm LC(LS(LALT)) J    &lt NUM K   &lt FUNC L &hs RSHIFT ENTER
 			//├────────────┼────────────┼────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┤
-			//│  Z         │  X         │  C         │  V         │  B        │   │  N         │  M         │ ,          │ .          │     ?      │
-					   &kp Z        &kp X        &kp C        &kp V       &kp B            &kp N        &kp M     &kp COMMA      &kp DOT     &kp QMARK
+			//│  Z         │  X         │  C         │  V         │  B        │   │  N         │  M         │ ,          │ '          │     ?      │
+					   &kp Z        &kp X        &kp C        &kp V       &kp B            &kp N        &kp M     &kp COMMA      &kp SQT     &kp QMARK
 			//╰────────────┴────────────┴────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┴────────────┴────────────╯
 			// 																									
-								  &lt MEDIA ESC     &lt NAV TAB    &mt LC(LS(LALT)) SPACE    &lt NUM BSPC       &lt SYM ENTER        &lt FUNC DEL
+								  &hm LCTL ESC     &hm LALT TAB          &hm LGUI SPACE       &lt SYM BSPC       &hm RGUI DOT        &hm RALT DEL
 			//       ╰──────────────────┴──────────────────┴──────────────────╯   ╰──────────────────┴──────────────────┴──────────────────╯
 			>;
 		};
 
+RCTL
 			nav_layer {
 					label = "Navigation";
 
