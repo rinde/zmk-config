@@ -111,13 +111,13 @@
 					 &trans     &trans     &trans     &trans     &trans        &kp HOME   &kp PG_UP    &kp UP   &kp PG_DN   &kp END
 			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 			//│          │   Quit   │   Close  │          │          │   │   Cmd+[  │  Left    │   Down   │  Right   │ Cmd+]    │
-					 &kp LGUI     &kp LG(Q)     &kp LG(W)     &trans     &trans      &kp LG(LBKT) &kp LEFT   &kp DOWN   &kp RIGHT &kp LG(RBKT)
+					 &trans   &kp LG(Q)  &kp LG(W)    &trans     &trans      &kp LG(LBKT) &kp LEFT   &kp DOWN   &kp RIGHT &kp LG(RBKT)
 			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 			//│          │          │          │          │          │   │          │          │          │          │          │
 					&trans     &trans     &trans     &trans     &trans         &trans      &trans   &trans        &trans  &trans
 			//╰──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
 			//											│          │          │          │   │          │          │          │
-											 &kp LG(LS(GRAVE)) &kp LC(LS(TAB)) &kp LS(TAB)  &kp TAB  &kp LC(TAB) &kp LG(GRAVE)
+											 						&trans    &trans     &trans  			 &kp TAB  &kp LC(TAB) &kp LG(GRAVE)
 														//╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
 					>;
 			};
