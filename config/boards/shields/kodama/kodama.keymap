@@ -91,13 +91,13 @@
 					   &kp Q        &kp W      &hm LCTL E        &kp R       &kp T            &kp Y        &kp U        &kp I        &kp O        &kp P
 			//├────────────┼────────────┼────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┤
 			//│  A         │  S         │  D         │  F         │  G        │   │  H         │  J         │  K         │  L         │    ENTER   │
-				&hs LSHIFT A   &hm LGUI S &hm LC(LS(LALT)) D &lt NAV F &hm LCTL G      &hm RCTL H      &hm LC(LS(LALT)) J    &lt NUM K   &lt FUNC L &hs RSHIFT ENTER
+				&hs LSHIFT A   &hm LGUI S &hm LC(LS(LALT)) D &lt NAV F &hm LCTL G      &kp H      &hm LC(LS(LALT)) J    &lt NUM K   &lt FUNC L &hs RSHIFT ENTER
 			//├────────────┼────────────┼────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┤
 			//│  Z         │  X         │  C         │  V         │  B        │   │  N         │  M         │ ,          │ '          │     ?      │
-					   &kp Z        &kp X        &kp C   &lt MEDIA V       &kp B            &kp N        &hm RCTL M     &kp COMMA      &kp SQT     &kp QMARK
+				&lt SYM Z        &kp X        &kp C      &lt MEDIA V    &kp B            &kp N        &kp M     &kp COMMA      &kp SQT   &lt SYM QMARK
 			//╰────────────┴────────────┴────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┴────────────┴────────────╯
 			// 																									
-								  &hm LCTL ESC     &hm LALT TAB          &hm LGUI SPACE       &lt SYM BSPC       &hm RGUI DOT        &hm RALT DEL
+								  &hm LCTL ESC     &hm LALT TAB          &hm LGUI SPACE       &hm RGUI BSPC       &hm RALT DOT        &hm RCTL DEL
 			//       ╰──────────────────┴──────────────────┴──────────────────╯   ╰──────────────────┴──────────────────┴──────────────────╯
 			>;
 		};
