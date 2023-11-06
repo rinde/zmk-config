@@ -117,7 +117,7 @@
 					&trans     &trans     &trans     &trans     &trans         &trans      &trans   &trans        &trans  &trans
 			//╰──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
 			//											│          │          │          │   │          │          │          │
-											 &kp LG(LS(GRAVE)) &LC(LS(TAB)) &LG(LS(TAB))  &LG(TAB)  &LC(TAB) &kp LG(GRAVE)
+											 &kp LG(LS(GRAVE)) &kp LC(LS(TAB)) &kp LG(LS(TAB))  &kp LG(TAB)  &kp LC(TAB) &kp LG(GRAVE)
 														//╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
 					>;
 			};
