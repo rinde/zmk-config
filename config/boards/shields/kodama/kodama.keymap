@@ -136,7 +136,7 @@
 			//│          │    +     │    -     │     _    │     /    │   │    \     │     |    │   ;      │   :      │          │
 					 &trans   &kp PLUS   &kp MINUS   &kp UNDER   &kp FSLH       &kp BSLH   &kp PIPE   &kp SEMI  &kp COLON   &trans
 			//╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
-												        &kp LGUI   &kp LALT  &kp LSHIFT        &trans     &trans     &trans
+												                &trans   &trans  &trans        &trans     &trans     &trans
 					>;
 			};
 			
