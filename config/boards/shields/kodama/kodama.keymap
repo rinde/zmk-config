@@ -111,7 +111,7 @@
 					 &trans     &kp LG(Q)     &kp LG(W)     &trans     &trans        &kp HOME   &kp PG_UP    &kp UP   &kp PG_DN   &kp END
 			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 			//│          │   Quit   │   Close  │          │          │   │   Cmd+[  │  Left    │   Down   │  Right   │ Cmd+]    │
-					 &trans   &trans  &kp LSHIFT    &trans     &trans      &kp LG(LBKT) &kp LEFT   &kp DOWN   &kp RIGHT &kp LG(RBKT)
+					 &trans   &kp LSHIFT  &kp LSHIFT    &trans     &trans      &kp LG(LBKT) &kp LEFT   &kp DOWN   &kp RIGHT &kp LG(RBKT)
 			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 			//│          │          │          │          │          │   │          │          │          │          │          │
 					&trans     &trans     &trans     &trans     &trans         &trans      &trans   &trans        &trans  &trans
