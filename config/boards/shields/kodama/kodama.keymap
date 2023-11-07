@@ -91,7 +91,7 @@
 					   &kp Q        &kp W      &kp E        &kp R       &kp T            &kp Y        &kp U        &kp I        &kp O        &kp P
 			//├────────────┼────────────┼────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┤
 			//│  A         │  S         │  D         │  F         │  G        │   │  H         │  J         │  K         │  L         │    .       │
-				&hs LSHIFT A   &hm LGUI S &hm LC(LS(LALT)) D &lt NAV F &hm LCTL G      &kp H      &hm LC(LS(LALT)) J    &lt NUM K   &lt FUNC L &hs RSHIFT DOT
+				&hm LSHIFT A   &hm LGUI S &hm LC(LS(LALT)) D &lt NAV F &hm LCTL G      &kp H      &hm LC(LS(LALT)) J    &lt NUM K   &lt FUNC L &hm RSHIFT DOT
 			//├────────────┼────────────┼────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┤
 			//│  Z         │  X         │  C         │  V         │  B        │   │  N         │  M         │ ,          │ '          │     ?      │
 				&lt SYM Z        &kp X        &kp C      &lt MEDIA V    &kp B            &kp N        &kp M     &kp COMMA      &kp SQT   &lt SYM QMARK
