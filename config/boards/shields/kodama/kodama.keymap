@@ -97,7 +97,7 @@
 				&lt SYM Z        &kp X        &lt MEDIA C      &hm LC(LG(LALT)) V    &kp B            &kp N        &kp M     &kp COMMA      &kp DOT   &lt SYM QMARK
 			//╰────────────┴────────────┴────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┴────────────┴────────────╯
 			// 																									
-								  &hm LCTL ESC     &hm LALT TAB          &hm LGUI SPACE       &hm RGUI BSPC       &hm RALT ENTER        &hm SYM DEL
+								  &hm LCTL ESC     &hm LALT TAB          &hm LGUI SPACE       &hm RGUI BSPC       &hm RALT ENTER        &lt SYM DEL
 			//       ╰──────────────────┴──────────────────┴──────────────────╯   ╰──────────────────┴──────────────────┴──────────────────╯
 			>;
 		};
