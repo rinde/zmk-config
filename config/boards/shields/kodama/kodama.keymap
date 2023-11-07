@@ -154,8 +154,8 @@
 		//│      │   1  │   2  │   3  │      │      │      │      │      │      │      │
 			 &trans &kp N1 &kp N2 &kp N3 &trans        &trans &trans &trans &trans &trans
 		//╰──────┴──────┼──────┼──────┼──────┤      ├──────┴──────┼──────┼──────┼──────╯
-		//							│   ,  │   0  │   .  │
-									&kp COMMA &kp N0 &kp DOT        &trans &trans &trans
+		//							│      │   0  │      │
+									   &trans &kp N0 &trans        &trans &trans &trans
 		//							╰──────┴──────┴──────╯      ╰──────┴──────┴──────╯
 					>;
 			};
