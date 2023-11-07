@@ -88,16 +88,16 @@
 			bindings = <
 			//╭────────────┬────────────┬────────────┬────────────┬───────────╮   ╭────────────┬────────────┬────────────┬────────────┬────────────╮
 			//│    Q       │  W         │  E         │  R         │  T        │   │  Y         │  U         │  I         │  O         │  P         │
-					   &kp Q        &kp W  &kp E        &hm LC(LG(LALT)) R       &kp T            &kp Y        &kp U        &kp I        &kp O        &kp P
+					   &kp Q        &kp W  &kp E        &kp R       &kp T            &kp Y        &kp U        &kp I        &kp O        &kp P
 			//├────────────┼────────────┼────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┤
-			//│  A         │  S         │  D         │  F         │  G        │   │  H         │  J         │  K         │  L         │    .       │
-				&hm LSHIFT A   &hm LGUI S &hm LC(LS(LALT)) D &lt NAV F &hm LCTL G      &kp H      &hm LC(LS(LALT)) J    &lt NUM K   &lt FUNC L &hm RSHIFT DOT
+			//│  A         │  S         │  D         │  F         │  G        │   │  H         │  J         │  K         │  L         │    '       │
+				&hm LSHIFT A   &hm LGUI S &hm LC(LS(LALT)) D &lt NAV F &hm LCTL G      &kp H      &hm LC(LS(LALT)) J    &lt NUM K   &lt FUNC L &hm RSHIFT SQT
 			//├────────────┼────────────┼────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┼────────────┼────────────┤
-			//│  Z         │  X         │  C         │  V         │  B        │   │  N         │  M         │ ,          │ '          │     ?      │
-				&lt SYM Z        &kp X        &kp C      &lt MEDIA V    &kp B            &kp N        &kp M     &kp COMMA      &kp SQT   &lt SYM QMARK
+			//│  Z         │  X         │  C         │  V         │  B        │   │  N         │  M         │ ,          │ .          │     ?      │
+				&lt SYM Z        &kp X        &lt MEDIA C      &hm LC(LG(LALT)) V    &kp B            &kp N        &kp M     &kp COMMA      &kp DOT   &lt SYM QMARK
 			//╰────────────┴────────────┴────────────┼────────────┼───────────┤   ├────────────┼────────────┼────────────┴────────────┴────────────╯
 			// 																									
-								  &hm LCTL ESC     &hm LALT TAB          &hm LGUI SPACE       &hm RGUI BSPC       &hm RALT ENTER        &hm RCTL DEL
+								  &hm LCTL ESC     &hm LALT TAB          &hm LGUI SPACE       &hm RGUI BSPC       &hm RALT ENTER        &hm SYM DEL
 			//       ╰──────────────────┴──────────────────┴──────────────────╯   ╰──────────────────┴──────────────────┴──────────────────╯
 			>;
 		};
