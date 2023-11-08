@@ -107,14 +107,14 @@
 
 					bindings = <
 			//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-			//│          │          │          │          │          │   │    Home  │  Page Up │    Up    │Page Down │  End     │
-					 &trans     &kp LG(Q)     &kp LG(W)     &trans     &trans        &kp HOME   &kp PG_UP    &kp UP   &kp PG_DN   &kp END
+			//│          │          │          │          │          │   │    Home  │          │    Up    │          │  End     │
+					 &trans     &kp LG(Q) &kp LG(W)  &trans     &trans  &kp     HOME    &kp LA(LEFT)     &kp UP   &kp LA(RIGHT)   &kp END
 			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 			//│          │   Quit   │   Close  │          │          │   │   Cmd+[  │  Left    │   Down   │  Right   │ Cmd+]    │
 					 &trans   &kp LSHIFT  &kp LSHIFT    &trans     &trans      &kp LG(LBKT) &kp LEFT   &kp DOWN   &kp RIGHT &kp LG(RBKT)
 			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-			//│          │          │          │          │          │   │          │          │          │          │          │
-					&trans     &trans     &trans     &trans     &trans         &trans      &trans   &trans        &trans  &trans
+			//│          │          │          │          │          │   │          │  Page Up │          │ Page Down│          │
+					&trans     &trans     &trans     &trans     &trans         &trans      &kp PG_UP  &trans        &kp PG_DN  &trans
 			//╰──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
 			//											│          │          │          │   │          │          │          │
 											 						&trans    &trans     &trans  			 &kp TAB  &kp LC(TAB) &kp LG(GRAVE)
