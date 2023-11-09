@@ -12,6 +12,7 @@
 #define DEF     6
 #define GAME    7
 #define FNNAV   8
+#define CODENAV   9
 
 &caps_word {
   continue-list = <UNDERSCORE MINUS>;
@@ -112,7 +113,7 @@
 					 &trans     &kp LG(Q) &kp LG(W)  &trans     &trans  &kp     HOME    &kp LA(LEFT)     &kp UP   &kp LA(RIGHT)   &kp END
 			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 			//│          │          │          │          │          │   │   Cmd+[  │  Left    │   Down   │  Right   │ Cmd+]    │
-					 &trans   &mo FNNAV   &kp LALT    &trans     &trans      &kp LG(LBKT) &kp LEFT   &kp DOWN   &kp RIGHT &kp LG(RBKT)
+					 &trans   &mo FNNAV   &mo CODENAV  &trans     &trans      &kp LG(LBKT) &kp LEFT   &kp DOWN   &kp RIGHT &kp LG(RBKT)
 			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 			//│          │          │          │          │          │   │          │          │          │  				 │          │
 					&trans     &trans     &trans     &trans     &trans         &trans      &trans  &trans        &trans  &trans
@@ -251,5 +252,25 @@
 														//╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
 					>;
 			};
+
+		codenav_layer {
+				label = "CodeNav";
+
+				bindings = <
+		//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+		//│          │          │          │          │          │   │    Home  │          │    Up    │          │  End     │
+					&trans     &trans &trans  &trans     &trans          &trans    &kp LC(LG(LA(U))) &kp LC(LG(LA(I)))   &kp LC(LG(LA(U)))   &trans
+		//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+		//│          │   Quit   │   Close  │          │          │   │   Cmd+[  │  Left    │   Down   │  Right   │ Cmd+]    │
+					&trans   &kp LALT      &none    &trans     &trans      &kp LG(LBKT) &kp LA(LEFT)   &kp LG(LBKT)   &kp LA(RIGHT) &kp LG(RBKT)
+		//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+		//│          │          │          │          │          │   │          │          │          │  				 │          │
+				&trans     &trans     &trans     &trans     &trans         &trans      &trans  &trans        &trans  &trans
+		//╰──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+		//											│          │          │          │   │          │          │          │
+																&trans    &trans     &trans  			 &kp TAB  &kp LC(TAB) &kp LG(GRAVE)
+													//╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
+				>;
+		};
 	};
 };
