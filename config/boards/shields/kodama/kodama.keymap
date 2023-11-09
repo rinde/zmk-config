@@ -243,7 +243,7 @@
 					bindings = <
 			//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
 			//│          │          │          │          │          │   │    Home  │          │    Up    │          │  End     │
-					 &trans     &trnas &trans  &trans     &trans          &trans    &kp LA(LEFT) &kp PG_UP   &kp LA(RIGHT)   &trans
+					 &trans     &trans &trans  &trans     &trans          &trans    &kp LA(LEFT) &kp PG_UP   &kp LA(RIGHT)   &trans
 			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 			//│          │   Quit   │   Close  │          │          │   │   Cmd+[  │  Left    │   Down   │  Right   │ Cmd+]    │
 					 &trans   &kp LALT      &none    &trans     &trans      &kp LG(LBKT) &kp HOME   &kp PG_DN   &kp END &kp LG(RBKT)
