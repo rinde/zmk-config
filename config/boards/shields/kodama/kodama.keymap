@@ -11,6 +11,7 @@
 #define FUNC    5
 #define DEF     6
 #define GAME    7
+#define FNNAV   8
 
 &caps_word {
   continue-list = <UNDERSCORE MINUS>;
@@ -53,6 +54,11 @@
       timeout-ms = <50>;
       key-positions = <0 1>;
       bindings = <&kp GRAVE>;
+    };
+		combo_fn {
+      timeout-ms = <50>;
+      key-positions = <12 13>;
+      bindings = <&mo FNNAV>;
     };
   };
 };
@@ -111,7 +117,7 @@
 					 &trans     &kp LG(Q) &kp LG(W)  &trans     &trans  &kp     HOME    &kp LA(LEFT)     &kp UP   &kp LA(RIGHT)   &kp END
 			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 			//│          │   Quit   │   Close  │          │          │   │   Cmd+[  │  Left    │   Down   │  Right   │ Cmd+]    │
-					 &trans   &kp LALT  &kp GLOBE    &trans     &trans      &kp LG(LBKT) &kp LEFT   &kp DOWN   &kp RIGHT &kp LG(RBKT)
+					 &trans   &kp LALT      &noop    &trans     &trans      &kp LG(LBKT) &kp LEFT   &kp DOWN   &kp RIGHT &kp LG(RBKT)
 			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
 			//│          │          │          │          │          │   │          │          │          │  				 │          │
 					&trans     &trans     &trans     &trans     &trans         &trans      &trans  &trans        &trans  &trans
@@ -230,5 +236,25 @@
 			//       ╰──────────────────┴──────────────────┴──────────────────╯   ╰──────┴──────┴──────╯
 			>;
 		};
+
+		nav_layer {
+					label = "FnNav";
+
+					bindings = <
+			//╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
+			//│          │          │          │          │          │   │    Home  │          │    Up    │          │  End     │
+					 &trans     &trnas &trans  &trans     &trans          &trans    &kp LA(LEFT) &kp PG_UP   &kp LA(RIGHT)   &trans
+			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+			//│          │   Quit   │   Close  │          │          │   │   Cmd+[  │  Left    │   Down   │  Right   │ Cmd+]    │
+					 &trans   &kp LALT      &noop    &trans     &trans      &kp LG(LBKT) &kp HOME   &kp PG_DOWN   &kp END &kp LG(RBKT)
+			//├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
+			//│          │          │          │          │          │   │          │          │          │  				 │          │
+					&trans     &trans     &trans     &trans     &trans         &trans      &trans  &trans        &trans  &trans
+			//╰──────────┴──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
+			//											│          │          │          │   │          │          │          │
+											 						&trans    &trans     &trans  			 &kp TAB  &kp LC(TAB) &kp LG(GRAVE)
+														//╰──────────┴──────────┴──────────╯   ╰──────────┴──────────┴──────────╯
+					>;
+			};
 	};
 };
