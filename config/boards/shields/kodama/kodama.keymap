@@ -237,7 +237,7 @@
 			>;
 		};
 
-		nav_layer {
+		fnnav_layer {
 					label = "FnNav";
 
 					bindings = <
