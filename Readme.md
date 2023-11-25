@@ -21,5 +21,5 @@ brew install pipx
 pipx ensurepath
 pipx install keymap-drawer
 keymap parse -b keymap.yaml -c 10 -z ./config/boards/shields/kodama/kodama.keymap > keymap.yaml
-keymap draw keymap.yaml > keymap.ortho.svg
+keymap draw -j layout.json keymap.yaml > keymap.svg
 ```
