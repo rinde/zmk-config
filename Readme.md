@@ -6,8 +6,21 @@ This is my personal note-space for documenting how the setup of my keyboard work
 
 - use ANSI when connecting to new MacBook via bluetooth
 
-## Resources
+## Firmware upgrade
 
+- Run GH workflow to compile new artifacts
+- Download and unzip firmware from GH
+- For each keyboard-half:
+  - Attach keyboard to Computer via USB-C cable
+  - Allow accessory to connect
+  - Double-tap the white small key at top of keyboard. Keyboard should become available as external device in Finder
+  - Allow accessory to connect (again)
+  - Drag&drop the (correct) firmware into the device in finder
+  - Ignore error "The Finder can’t complete the operation because some data in ... can’t be read or written."
+  - Unplug cable
+
+## Resources
+                                                                                                                                                               
 - https://www.typingclub.com/
 
 ## Tools
