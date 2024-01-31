@@ -5,6 +5,7 @@ This is my personal note-space for documenting how the setup of my keyboard work
 ## Caveats
 
 - use ANSI when connecting to new MacBook via bluetooth
+- check bluetooth media channel if one of the halfs does not connect properly (number shown on display)
 
 ## Firmware upgrade
 
