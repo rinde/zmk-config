@@ -23,6 +23,7 @@ This is my personal note-space for documenting how the setup of my keyboard work
 ## Resources
                                                                                                                                                                
 - https://www.typingclub.com/
+- https://monkeytype.com/
 
 ## Tools
 
