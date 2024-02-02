@@ -126,45 +126,45 @@
     default_layer {
         label = "Default";
         bindings = <
-            &kp Q         &kp W         &lt MEDIA E         &lta 0 R      &kp T        	         &kp Y          &kp U               &kp I         &kp O      &kp P
-            &hm LSHIFT A  &lt SYM S     &hm LC(LS(LALT)) D  &lt NAV F     &hm LC(LG(LALT)) G     &kp H          &hm LC(LS(LALT)) J  &lt NUM K     &lt SYM L  &hm RSHIFT SQT
-            &kp Z   			&kp X   		  &kp C               &lt NAV2 V    &kp B           		   &kp N          &kp M               &kp COMMA     &kp DOT    &kp QMARK
-                                                &hm LCTL ESC        &hm LALT TAB  &hm LGUI SPACE         &hm RGUI BSPC  &hm RALT ENTER      &hm RCTL DEL
+            &kp Q         &kp W         &lt MEDIA E         &lta 0 R      &kp T                &kp Y          &kp U               &kp I           &kp O         &kp P
+            &hm LSHIFT A  &lt SYM S     &hm LC(LS(LALT)) D  &lt NAV F     &hm LC(LG(LALT)) G   &kp H          &hm LC(LS(LALT)) J  &lt NUM K       &lt SYM L     &hm RSHIFT SQT
+            &kp Z         &kp X         &kp C               &lt NAV2 V    &kp B                &kp N          &kp M               &kp COMMA       &kp DOT       &kp QMARK
+                                        &hm LCTL ESC        &hm LALT TAB  &hm LGUI SPACE       &hm RGUI BSPC  &hm RALT ENTER      &hm RCTL DEL
         >;
     };
     nav_layer {
             label = "Nav";
             bindings = <
-                &trans  &kp LG(Q)  &kp LG(W)  &trans   				 			&trans     		 			 &trans           		 &kp HOME     		 &kp UP              &kp END    &trans
-                &trans  &trans     &mo NAV2   &trans   				 			&trans     		 			 &kp LG(LBKT)     		 &kp LEFT     		 &kp DOWN            &kp RIGHT  &kp LG(RBKT)
-                &trans  &trans     &trans     &trans   				 			&trans     		 			 &trans           		 &trans       		 &trans              &trans     &trans
+                &trans  &kp LG(Q)  &kp LG(W)  &trans                  &trans                 &trans                &kp HOME          &kp UP              &kp END    &trans
+                &trans  &trans     &mo NAV2   &trans                  &trans                 &kp LG(LBKT)          &kp LEFT          &kp DOWN            &kp RIGHT  &kp LG(RBKT)
+                &trans  &trans     &trans     &trans                  &trans                 &trans                &trans            &trans              &trans     &trans
                                                      &trans     &hm LALT LS(LC(TAB))  &hm LGUI LC(TAB)     &hm RGUI LS(LC(TAB))  &hm RALT LC(TAB)  &hm RCTL LG(GRAVE)
             >;
     };
     nav2_layer {
         label = "Nav2";
         bindings = <
-            &trans  &trans    &trans  &trans  				 			&trans     		 			 &trans           		 &kp HOME           &kp PG_UP           &kp END            &trans
-            &trans  &trans    &trans  &trans  				 			&trans     		 			 &kp LG(LBKT)     		 &kp LA(LEFT)       &kp PG_DN           &kp LA(RIGHT)      &kp LG(RBKT)
-            &trans  &trans    &trans  &trans  				 			&trans     		 			 &trans           		 &kp LC(LG(LA(U)))  &trans              &kp LC(LG(LA(I)))  &trans
+            &trans  &trans    &trans  &trans                 &trans                 &trans                &kp HOME           &kp PG_UP           &kp END            &trans
+            &trans  &trans    &trans  &trans                 &trans                 &kp LG(LBKT)          &kp LA(LEFT)       &kp PG_DN           &kp LA(RIGHT)      &kp LG(RBKT)
+            &trans  &trans    &trans  &trans                 &trans                 &trans                &kp LC(LG(LA(U)))  &trans              &kp LC(LG(LA(I)))  &trans
                                                 &trans  &hm LALT LS(LC(TAB))  &hm LGUI LC(TAB)     &hm RGUI LS(LC(TAB))  &hm RALT LC(TAB)   &hm RCTL LG(GRAVE)
         >;
     };
     cmdtemptab_layer {
         label = "CmdTempTab";
         bindings = <
-            &none  &none  &none  &none  				&none        &none          &none    &none  &none  &none
-            &none  &none  &none  &none  				&none        &none          &none    &none  &none  &none
-            &none  &none  &none  &none  				&none        &none          &none    &none  &none  &none
+            &none  &none  &none  &none          &none        &none          &none    &none  &none  &none
+            &none  &none  &none  &none          &none        &none          &none    &none  &none  &none
+            &none  &none  &none  &none          &none        &none          &none    &none  &none  &none
                                         &none  &cmdtab_shift  &cmdtab      &cmdtab_shift  &cmdtab  &none
         >;
     };
     cmdtab_layer {
         label = "CmdTab";
         bindings = <
-            &none  &none  &none  &none  			&none        &none        &none    &none  &none  &none
-            &none  &none  &none  &none  			&none        &none        &none    &none  &none  &none
-            &none  &none  &none  &none  			&none        &none        &none    &none  &none  &none
+            &none  &none  &none  &none        &none        &none        &none    &none  &none  &none
+            &none  &none  &none  &none        &none        &none        &none    &none  &none  &none
+            &none  &none  &none  &none        &none        &none        &none    &none  &none  &none
                                         &none  &kp LS(TAB)  &kp TAB      &kp LS(TAB)  &kp TAB  &none
         >;
     };
