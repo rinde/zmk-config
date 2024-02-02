@@ -129,7 +129,7 @@
             &kp Q         &kp W         &lt MEDIA E         &lta 0 R      &kp T        	         &kp Y          &kp U               &kp I         &kp O      &kp P
             &hm LSHIFT A  &lt SYM S     &hm LC(LS(LALT)) D  &lt NAV F     &hm LC(LG(LALT)) G     &kp H          &hm LC(LS(LALT)) J  &lt NUM K     &lt SYM L  &hm RSHIFT SQT
             &kp Z   			&kp X   		  &kp C               &lt NAV2 V    &kp B           		   &kp N          &kp M               &kp COMMA     &kp DOT    &kp QMARK
-                                                &hm LCTL ESC        &hm LALT TAB  &hm LGUI SPACE         &hm RGUI BSPC  &hm RALT ENTER      &lt RCTL DEL
+                                                &hm LCTL ESC        &hm LALT TAB  &hm LGUI SPACE         &hm RGUI BSPC  &hm RALT ENTER      &hm RCTL DEL
         >;
     };
     nav_layer {
