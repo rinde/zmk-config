@@ -1,6 +1,10 @@
 # Notes
 
 This is my personal note-space for documenting how the setup of my keyboard works.
+This keyboard is based on:
+- https://github.com/davidphilipbarr/Sweep
+- https://github.com/davidphilipbarr/popcorn
+- https://www.reddit.com/r/ErgoMechKeyboards/comments/qcdndh/is_there_such_a_thing_as_a_36key_ferris_sweep/
 
 ## Caveats
 
