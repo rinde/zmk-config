@@ -20,26 +20,11 @@
 / {
   combos {
     compatible = "zmk,combos";
-    combo_undo {
-      timeout-ms = <50>;
-      key-positions = <20 21>;
-      bindings = <&kp LG(Z)>;
-    };
-    combo_copy {
-      timeout-ms = <50>;
-      key-positions = <21 22>;
-      bindings = <&kp LG(C)>;
-    };
-    combo_cut {
-      timeout-ms = <50>;
-      key-positions = <22 23>;
-      bindings = <&kp LA(LG(V))>;
-    };
-    combo_paste {
-      timeout-ms = <50>;
-      key-positions = <23 24>;
-      bindings = <&kp LG(V)>;
-    };
+    // combo_undo {
+    //   timeout-ms = <50>;
+    //   key-positions = <20 21>;
+    //   bindings = <&kp LG(Z)>;
+    // };
   };
 };
 
