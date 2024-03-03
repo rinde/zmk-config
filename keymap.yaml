@@ -250,3 +250,6 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
+combos:
+- p: [30, 33]
+  k: LG(GRAVE)
