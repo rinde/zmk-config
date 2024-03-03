@@ -66,9 +66,9 @@
                   , <&macro_tap &to DEFAULT>;
     };
     // use below with a dummy value for first parameter: &lta 0 RET
-    lta: layer_tap_release_alttab {
+    lta: layer_tap_release_alt_tab {
         compatible = "zmk,behavior-hold-tap";
-        label = "layer_tap_release_alttab";
+        label = "layer_tap_release_alt_tab";
         #binding-cells = <2>;
         flavor = "tap-preferred";
         tapping-term-ms = <200>;
