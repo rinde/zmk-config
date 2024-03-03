@@ -30,12 +30,12 @@ layers:
     - ','
     - .
     - '?'
-  - - {t: ESC, h: LCTL}
+  - - {t: ESC, h: LCTRL}
     - {t: TAB, h: LALT}
-    - {t: SPACE, h: LGUI}
-    - {t: BSPC, h: RGUI}
+    - {t: SPACE, h: LCMD}
+    - {t: BSPC, h: RCMD}
     - {t: ENTER, h: RALT}
-    - {t: DEL, h: RCTL}
+    - {t: DEL, h: RCTRL}
   Nav:
   - - {t: ▽, type: trans}
     - LG(Q)
@@ -69,10 +69,10 @@ layers:
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: LS(LC(TAB)), h: LALT}
-    - {t: LC(TAB), h: LGUI}
-    - {t: LS(LC(TAB)), h: RGUI}
+    - {t: LC(TAB), h: LCMD}
+    - {t: LS(LC(TAB)), h: RCMD}
     - {t: LC(TAB), h: RALT}
-    - {t: LG(GRAVE), h: RCTL}
+    - {t: LG(GRAVE), h: RCTRL}
   Nav2:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -106,10 +106,10 @@ layers:
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: LS(LC(TAB)), h: LALT}
-    - {t: LC(TAB), h: LGUI}
-    - {t: LS(LC(TAB)), h: RGUI}
+    - {t: LC(TAB), h: LCMD}
+    - {t: LS(LC(TAB)), h: RCMD}
     - {t: LC(TAB), h: RALT}
-    - {t: LG(GRAVE), h: RCTL}
+    - {t: LG(GRAVE), h: RCTRL}
   CmdTempTab:
   - ['', '', '', '', '', '', '', '', '', '']
   - ['', '', '', '', '', '', '', '', '', '']

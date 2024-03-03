@@ -238,7 +238,7 @@ path.combo {
 <g transform="translate(167, 203)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<text x="0" y="24" class="key hold">LCTL</text>
+<text x="0" y="24" class="key hold">LCTRL</text>
 </g>
 <g transform="translate(229, 211) rotate(15.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -248,12 +248,12 @@ path.combo {
 <g transform="translate(290, 220) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-<text x="0" y="24" class="key hold">LGUI</text>
+<text x="0" y="24" class="key hold">LCMD</text>
 </g>
 <g transform="translate(438, 220) rotate(-30.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">BSPC</text>
-<text x="0" y="24" class="key hold">RGUI</text>
+<text x="0" y="24" class="key hold">RCMD</text>
 </g>
 <g transform="translate(499, 211) rotate(-15.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -263,7 +263,7 @@ path.combo {
 <g transform="translate(561, 203)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">DEL</text>
-<text x="0" y="24" class="key hold">RCTL</text>
+<text x="0" y="24" class="key hold">RCTRL</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
@@ -417,12 +417,12 @@ path.combo {
 <g transform="translate(290, 220) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">LC(TAB)</text>
-<text x="0" y="24" class="key hold">LGUI</text>
+<text x="0" y="24" class="key hold">LCMD</text>
 </g>
 <g transform="translate(438, 220) rotate(-30.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 64%">LS(LC(TAB))</tspan></text>
-<text x="0" y="24" class="key hold">RGUI</text>
+<text x="0" y="24" class="key hold">RCMD</text>
 </g>
 <g transform="translate(499, 211) rotate(-15.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -432,7 +432,7 @@ path.combo {
 <g transform="translate(561, 203)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 78%">LG(GRAVE)</tspan></text>
-<text x="0" y="24" class="key hold">RCTL</text>
+<text x="0" y="24" class="key hold">RCTRL</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
@@ -590,12 +590,12 @@ path.combo {
 <g transform="translate(290, 220) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">LC(TAB)</text>
-<text x="0" y="24" class="key hold">LGUI</text>
+<text x="0" y="24" class="key hold">LCMD</text>
 </g>
 <g transform="translate(438, 220) rotate(-30.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 64%">LS(LC(TAB))</tspan></text>
-<text x="0" y="24" class="key hold">RGUI</text>
+<text x="0" y="24" class="key hold">RCMD</text>
 </g>
 <g transform="translate(499, 211) rotate(-15.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -605,7 +605,7 @@ path.combo {
 <g transform="translate(561, 203)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 78%">LG(GRAVE)</tspan></text>
-<text x="0" y="24" class="key hold">RCTL</text>
+<text x="0" y="24" class="key hold">RCTRL</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="42" y="141" width="28" height="26" class="combo"/>
