@@ -25,11 +25,6 @@
     //   key-positions = <20 21>;
     //   bindings = <&kp LG(Z)>;
     // };
-    combo_cmd_grave {
-      timeout-ms = <50>;
-      key-positions = <30 33>;
-      bindings = <&kp LG(GRAVE)>;
-    };
   };
 };
 
