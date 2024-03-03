@@ -102,7 +102,7 @@
       tap-ms = <20>;
       bindings =
           <&macro_release &kp LCMD>,
-          <&macro_tap &to 0>;
+          <&macro_tap &to DEFAULT>;
     };
   };
   keymap {
