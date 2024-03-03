@@ -6,11 +6,10 @@
 #define DEFAULT    0
 #define NAV        1
 #define NAV2       2
-#define CMDTAB     3
-#define SYM        4
-#define NUM        5
-#define MEDIA      6
-#define FUNC       7
+#define SYM        3
+#define NUM        4
+#define MEDIA      5
+#define FUNC       6
 
 &caps_word {
   continue-list = <UNDERSCORE MINUS>;
@@ -37,45 +36,6 @@
       quick_tap_ms = <0>;
       flavor = "balanced";
       bindings = <&kp>, <&kp>;
-    };
-    hs: homerow_shift {
-      compatible = "zmk,behavior-hold-tap";
-      label = "HOMEROW_SHIFT";
-      #binding-cells = <2>;
-      tapping-term-ms = <175>;
-      quick_tap_ms = <0>;
-      flavor = "balanced";
-      bindings = <&kp>, <&kp>;
-    };
-    cmdtab: cmd_tab_enter {
-      label = "cmd_tab_enter";
-      compatible = "zmk,behavior-macro";
-      #binding-cells = <0>;
-      wait-ms = <10>;
-      tap-ms = <20>;
-      bindings =
-          <&macro_press &kp LCMD>,
-          <&macro_tap &kp TAB &to CMDTAB>;
-    };
-    cmdtab_shift: cmd_tab_shift_enter {
-      label = "cmd_tab_shift_enter";
-      compatible = "zmk,behavior-macro";
-      #binding-cells = <0>;
-      wait-ms = <10>;
-      tap-ms = <20>;
-      bindings =
-          <&macro_press &kp LCMD>,
-          <&macro_tap &kp LS(TAB) &to CMDTAB>;
-    };
-    cmdtab_x: cmd_tab_leave {
-      label = "cmd_tab_leave";
-      compatible = "zmk,behavior-macro";
-      #binding-cells = <0>;
-      wait-ms = <10>;
-      tap-ms = <20>;
-      bindings =
-          <&macro_release &kp LCMD>,
-          <&macro_tap &to DEFAULT>;
     };
   };
   keymap {
@@ -105,15 +65,6 @@
             &trans  &trans    &trans  &trans                 &trans                 &kp LG(LBKT)          &kp LA(LEFT)       &kp PG_DN           &kp LA(RIGHT)      &kp LG(RBKT)
             &trans  &trans    &trans  &trans                 &trans                 &trans                &kp LC(LG(LA(U)))  &trans              &kp LC(LG(LA(I)))  &trans
                                                 &trans  &hm LALT LS(LC(TAB))  &hm LCMD LC(TAB)     &hm RCMD LS(LC(TAB))  &hm RALT LC(TAB)   &hm RCTRL LG(GRAVE)
-        >;
-    };
-    cmdtab_layer {
-        label = "CmdTab";
-        bindings = <
-              &none    &none    &none    &none    &none          &none    &none    &none    &none    &none
-              &none    &none    &none    &none    &none          &none    &none    &none    &none    &none
-              &none    &none    &none    &none    &none          &none    &none    &none    &none    &none
-                    &kp GRAVE   &kp TAB  &kp LS(TAB)          &none    &none    &none
         >;
     };
     sym_layer {
