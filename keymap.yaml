@@ -250,43 +250,6 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
-  Def:
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - A
-    - S
-    - D
-    - F
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - J
-    - K
-    - L
-    - ''''
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
 combos:
 - p: [20, 21]
   k: LG(Z)
@@ -296,5 +259,3 @@ combos:
   k: LA(LG(V))
 - p: [23, 24]
   k: LG(V)
-- p: [25, 29]
-  k: Def
