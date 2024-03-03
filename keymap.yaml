@@ -3,7 +3,7 @@ layers:
   - - Q
     - W
     - {t: E, h: Media}
-    - {t: R, h: '&mo_at'}
+    - R
     - T
     - Y
     - U
@@ -110,16 +110,11 @@ layers:
     - {t: LS(LC(TAB)), h: RCMD}
     - {t: LC(TAB), h: RALT}
     - {t: LG(GRAVE), h: RCTRL}
-  CmdTempTab:
-  - ['', '', '', '', '', '', '', '', '', '']
-  - ['', '', '', '', '', '', '', '', '', '']
-  - ['', '', '', '', '', '', '', '', '', '']
-  - ['', '&cmdtab_shift', '&cmdtab', '&cmdtab_shift', '&cmdtab', '']
   CmdTab:
   - ['', '', '', '', '', '', '', '', '', '']
   - ['', '', '', '', '', '', '', '', '', '']
   - ['', '', '', '', '', '', '', '', '', '']
-  - ['', LS(TAB), TAB, LS(TAB), TAB, '']
+  - ['`', TAB, LS(TAB), '', '', '']
   Symbols:
   - ['!', '@', '#', '{', '}', ^, '&', '*', '`', '~']
   - - '|'
@@ -250,6 +245,3 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
-combos:
-- p: [30, 33]
-  k: LG(GRAVE)
