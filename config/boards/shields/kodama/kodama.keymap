@@ -12,7 +12,6 @@
 #define NUM        6
 #define MEDIA      7
 #define FUNC       8
-#define DEF        9
 
 &caps_word {
   continue-list = <UNDERSCORE MINUS>;
@@ -40,11 +39,6 @@
       timeout-ms = <50>;
       key-positions = <23 24>;
       bindings = <&kp LG(V)>;
-    };
-    combo_def {
-      timeout-ms = <50>;
-      key-positions = <25 29>;
-      bindings = <&tog DEF>;
     };
   };
 };
@@ -203,15 +197,6 @@
             &kp F11  &kp F12  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
                                                 &trans  &trans  &trans     &trans  &trans  &trans
             >;
-    };
-    def_layer {
-        label = "Def";
-      bindings = <
-          &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
-          &kp A   &kp S   &kp D   &kp F   &trans     &trans  &kp J   &kp K   &kp L   &kp SQT
-          &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans
-                                        &trans  &trans  &trans     &trans  &trans  &trans
-      >;
     };
   };
 };
