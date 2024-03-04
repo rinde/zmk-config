@@ -41,7 +41,8 @@
       compatible = "zmk,behavior-mod-morph";
       #binding-cells = <0>;
       bindings = <&hm LCTRL ESC>, <&kp GRAVE>;
-      mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
+      mods = <(MOD_LGUI|MOD_RGUI)>;
+      keep-mods = <(MOD_LGUI|MOD_RGUI)>;
     };
   };
   keymap {
