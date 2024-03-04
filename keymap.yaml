@@ -30,7 +30,7 @@ layers:
     - ','
     - .
     - '?'
-  - - {t: ESC, h: LCTRL}
+  - - {t: ESC, h: LCTRL, s: '`'}
     - {t: TAB, h: LALT}
     - {t: SPACE, h: LCMD}
     - {t: BSPC, h: RCMD}
