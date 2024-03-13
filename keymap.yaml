@@ -63,16 +63,16 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - LC(LG(LALT(LEFT)))
+    - LC(LG(LALT(SPACE)))
+    - LC(LG(LALT(RIGHT)))
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {t: LS(LC(TAB)), h: LALT}
-    - {t: LC(TAB), h: LCMD}
-    - {t: LS(LC(TAB)), h: RCMD}
-    - {t: LC(TAB), h: RALT}
-    - {t: LG(GRAVE), h: RCTRL}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   Nav2:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}

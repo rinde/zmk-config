@@ -61,7 +61,7 @@
             bindings = <
                 &trans  &kp LG(Q)  &kp LG(W)  &trans   &trans             &trans         &kp HOME    &kp UP     &kp END    &trans
                 &trans  &trans     &mo NAV2   &trans   &trans             &kp LG(LBKT)   &kp LEFT    &kp DOWN   &kp RIGHT  &kp LG(RBKT)
-                &trans  &trans     &trans     &trans   &trans             &trans         &trans      &trans     &trans     &trans
+                &trans  &trans     &trans     &trans   &trans             &trans         &kp LC(LG(LA(LEFT))) &kp LC(LG(LA(SPACE))) &kp LC(LG(LA(RIGHT))) &trans
                                    &trans     &trans   &trans             &trans         &trans      &trans
             >;
     };
