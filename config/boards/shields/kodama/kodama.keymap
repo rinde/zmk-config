@@ -59,10 +59,10 @@
     nav_layer {
             label = "Nav";
             bindings = <
-                &trans  &kp LG(Q)  &kp LG(W)  &trans                  &trans                 &trans                &kp HOME          &kp UP              &kp END    &trans
-                &trans  &trans     &mo NAV2   &trans                  &trans                 &kp LG(LBKT)          &kp LEFT          &kp DOWN            &kp RIGHT  &kp LG(RBKT)
-                &trans  &trans     &trans     &trans                  &trans                 &trans                &trans            &trans              &trans     &trans
-                                                     &trans     &hm LALT LS(LC(TAB))  &hm LCMD LC(TAB)     &hm RCMD LS(LC(TAB))  &hm RALT LC(TAB)  &hm RCTRL LG(GRAVE)
+                &trans  &kp LG(Q)  &kp LG(W)  &trans   &trans             &trans         &kp HOME    &kp UP     &kp END    &trans
+                &trans  &trans     &mo NAV2   &trans   &trans             &kp LG(LBKT)   &kp LEFT    &kp DOWN   &kp RIGHT  &kp LG(RBKT)
+                &trans  &trans     &trans     &trans   &trans             &trans         &trans      &trans     &trans     &trans
+                                   &trans     &trans   &trans             &trans         &trans      &trans
             >;
     };
     nav2_layer {
