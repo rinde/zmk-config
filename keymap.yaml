@@ -63,9 +63,9 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - LC(LG(LALT(LEFT)))
-    - LC(LG(LALT(SPACE)))
-    - LC(LG(LALT(RIGHT)))
+    - LC(LG(LA(LEFT)))
+    - LC(LG(LA(SPACE)))
+    - LC(LG(LA(RIGHT)))
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -240,3 +240,43 @@ layers:
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
+  wc3:
+  - - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: A, h: LSHIFT}
+    - S
+    - D
+    - F
+    - G
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - Z
+    - X
+    - C
+    - V
+    - B
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ESC, h: LCTRL, s: '`'}
+    - {t: TAB, h: LALT}
+    - {t: SPACE, h: LCMD}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+combos:
+- p: [24, 25]
+  k: wc3
