@@ -1,3 +1,5 @@
+![](corne_keebmaker.jpeg)
+
 # Notes
 
 This is my personal note-space for documenting how the setup of my keyboard works.
@@ -49,3 +51,6 @@ just draw
 # Final keymap
 
 ![./keymap.svg](./keymap.svg)
+
+![](soldering.jpeg)
+![](swweeep_and_corne.jpeg)
