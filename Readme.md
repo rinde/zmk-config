@@ -40,8 +40,7 @@ https://github.com/caksoylar/keymap-drawer
 brew install pipx
 pipx ensurepath
 pipx install keymap-drawer
-keymap parse -c 10 -z ./config/boards/shields/kodama/kodama.keymap > keymap.yaml
-keymap draw -j layout.json keymap.yaml > keymap.svg
+just draw
 ```
 
 # Final keymap
