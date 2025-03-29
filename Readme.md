@@ -51,6 +51,3 @@ just draw
 # Final keymap
 
 ![./keymap.svg](./keymap.svg)
-
-![](soldering.jpeg)
-![](swweeep_and_corne.jpeg)

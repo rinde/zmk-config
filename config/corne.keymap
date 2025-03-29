@@ -61,9 +61,9 @@
         label = "Default";
         display-name = "def";
         bindings = <
-            &none &kp Q         &kp W         &lt MEDIA E         &kp R      &kp T                &kp Y          &kp U               &kp I           &kp O         &kp P        &none
-            &none &hm LSHIFT A  &lt SYM S     &hm LC(LS(LALT)) D  &lt NAV F     &hm LC(LG(LALT)) G   &kp H          &hm LC(LS(LALT)) J  &lt NUM K       &lt SYM L     &hm RSHIFT SQT        &none
-            &none &kp Z         &kp X         &kp C               &lt NAV2 V    &kp B                &kp N          &kp M               &kp COMMA       &kp DOT       &kp QMARK        &none
+            &none &kp Q         &kp D         &lt MEDIA R         &kp W      &kp B                &kp J          &kp F               &kp U           &kp P         &kp SEMI        &none
+            &none &hm LSHIFT A  &lt SYM S     &hm LC(LS(LALT)) H  &lt NAV T     &hm LC(LG(LALT)) G   &kp Y          &hm LC(LS(LALT)) N  &lt NUM E       &lt SYM O     &hm RSHIFT I        &none
+            &none &kp Z         &kp X         &kp M               &lt NAV2 C    &kp V                &kp K          &kp L               &kp COMMA       &kp DOT       &kp FSLH        &none
                                         &grave_esc    &hm LALT TAB  &hm LCMD SPACE       &hm RCMD BSPC  &hm RALT ENTER      &hm RCTRL DEL
         >;
     };
