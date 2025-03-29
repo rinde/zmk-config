@@ -13,7 +13,7 @@ Specs:
 ## Caveats
 
 - use ANSI when connecting to new MacBook via bluetooth
-- check bluetooth media channel if one of the halfs does not connect properly (number shown on display)
+- check bluetooth media channel if one of the halves does not connect properly (number shown on display)
 - the hardware shipped by keebmaker has 36 physical keys, but supports 42 keys.
   Therefore, the keymap is padded by a column of &none on the outermost left and right.
 
