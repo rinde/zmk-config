@@ -1,0 +1,282 @@
+layers:
+  Default:
+  - - Q
+    - W
+    - {t: E, h: Media}
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - P
+  - - {t: A, h: LSHIFT}
+    - {t: S, h: Symbols}
+    - {t: D, h: LC(LS(LALT))}
+    - {t: F, h: Nav}
+    - {t: G, h: LC(LG(LALT))}
+    - H
+    - {t: J, h: LC(LS(LALT))}
+    - {t: K, h: Numbers}
+    - {t: L, h: Symbols}
+    - {t: '''', h: RSHIFT}
+  - - Z
+    - X
+    - C
+    - {t: V, h: Nav2}
+    - B
+    - N
+    - M
+    - ','
+    - .
+    - '?'
+  - - {t: ESC, h: LCTRL, s: '`'}
+    - {t: TAB, h: LALT}
+    - {t: SPACE, h: LCMD}
+    - {t: BSPC, h: RCMD}
+    - {t: ENTER, h: RALT}
+    - {t: DEL, h: RCTRL}
+  Nav:
+  - - {t: ▽, type: trans}
+    - LG(Q)
+    - LG(W)
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - HOME
+    - UP
+    - END
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Nav2
+    - {type: held}
+    - {t: ▽, type: trans}
+    - LG(LBKT)
+    - LEFT
+    - DOWN
+    - RIGHT
+    - LG(RBKT)
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - LC(LG(LA(LEFT)))
+    - LC(LG(LA(SPACE)))
+    - LC(LG(LA(RIGHT)))
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  Nav2:
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - HOME
+    - PG UP
+    - END
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - LG(LBKT)
+    - LA(LEFT)
+    - PG DN
+    - LA(RIGHT)
+    - LG(RBKT)
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - LC(LG(LA(U)))
+    - {t: ▽, type: trans}
+    - LC(LG(LA(I)))
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: LS(LC(TAB)), h: LALT}
+    - {t: LC(TAB), h: LCMD}
+    - {t: LS(LC(TAB)), h: RCMD}
+    - {t: LC(TAB), h: RALT}
+    - {t: LG(GRAVE), h: RCTRL}
+  Symbols:
+  - ['!', '@', '#', '{', '}', ^, '&', '*', '`', '~']
+  - - '|'
+    - {t: $, type: held}
+    - '%'
+    - (
+    - )
+    - _
+    - '='
+    - ;
+    - ':'
+    - '"'
+  - [\, <, '>', '[', ']', '-', +, ;, ':', /]
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  Numbers:
+  - - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '0'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - Func
+    - {t: ▽, type: trans}
+  Media:
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - BT PRV
+    - BT NXT
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - RGB TOG
+    - RGB HUI
+    - RGB SAI
+    - RGB BRI
+    - {t: ▽, type: trans}
+    - PREV
+    - PLAY PAUSE
+    - NEXT
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - RGB EFF
+    - RGB HUD
+    - RGB SAD
+    - RGB BRD
+    - BT CLR
+    - {t: BT, h: '0'}
+    - {t: BT, h: '1'}
+    - {t: BT, h: '2'}
+    - {t: BT, h: '3'}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - VOL DN
+    - MUTE
+    - VOL UP
+  Func:
+  - - F1
+    - F2
+    - F3
+    - F4
+    - F5
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - F6
+    - F7
+    - F8
+    - F9
+    - F10
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - F11
+    - F12
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {t: ▽, type: trans}
+  wc3:
+  - - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: A, h: LSHIFT}
+    - S
+    - D
+    - F
+    - G
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - Z
+    - X
+    - C
+    - V
+    - B
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - {t: ESC, h: LCTRL, s: '`'}
+    - {t: TAB, h: LALT}
+    - {t: SPACE, h: LCMD}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+combos:
+- p: [24, 25]
+  k: wc3
