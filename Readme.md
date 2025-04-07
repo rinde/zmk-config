@@ -1,4 +1,4 @@
-![](corne_keebmaker.jpeg)
+![](corne.jpeg)
 
 # Notes
 
@@ -30,8 +30,9 @@ Specs:
     - Ignore error "The Finder can’t complete the operation because some data in ... can’t be read or written."
     - Unplug cable
 
-## Resources
+## Practice
 
+- https://www.keybr.com/
 - https://www.typingclub.com/
 - https://monkeytype.com/
 
@@ -52,5 +53,3 @@ just draw
 
 ![./keymap.svg](./keymap.svg)
 
-![](soldering.jpeg)
-![](swweeep_and_corne.jpeg)
