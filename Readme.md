@@ -1,4 +1,4 @@
-![](corne.jpeg)
+![](corne.jpg)
 
 # Notes
 
