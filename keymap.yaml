@@ -1,8 +1,9 @@
+layout: {zmk_keyboard: keymap-36}
 layers:
-  Default:
+  def:
   - - Q
     - W
-    - {t: E, h: Media}
+    - {t: E, h: med}
     - R
     - T
     - Y
@@ -11,19 +12,19 @@ layers:
     - O
     - P
   - - {t: A, h: LSHIFT}
-    - {t: S, h: Symbols}
-    - {t: D, h: LC(LS(LALT))}
-    - {t: F, h: Nav}
-    - {t: G, h: LC(LG(LALT))}
+    - {t: S, h: sym}
+    - {t: D, h: Ctl+Sft+LALT}
+    - {t: F, h: nav}
+    - {t: G, h: Ctl+Gui+LALT}
     - H
-    - {t: J, h: LC(LS(LALT))}
-    - {t: K, h: Numbers}
-    - {t: L, h: Symbols}
+    - {t: J, h: Ctl+Sft+LALT}
+    - {t: K, h: num}
+    - {t: L, h: sym}
     - {t: '''', h: RSHIFT}
   - - Z
     - X
     - C
-    - {t: V, h: Nav2}
+    - {t: V, h: nav2}
     - B
     - N
     - M
@@ -36,10 +37,10 @@ layers:
     - {t: BSPC, h: RCMD}
     - {t: ENTER, h: RALT}
     - {t: DEL, h: RCTRL}
-  Nav:
+  nav:
   - - {t: ▽, type: trans}
-    - LG(Q)
-    - LG(W)
+    - Gui+Q
+    - Gui+W
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -49,23 +50,23 @@ layers:
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - Nav2
+    - nav2
     - {type: held}
     - {t: ▽, type: trans}
-    - LG(LBKT)
+    - Gui+[
     - LEFT
     - DOWN
     - RIGHT
-    - LG(RBKT)
+    - Gui+]
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - LC(LG(LA(LEFT)))
-    - LC(LG(LA(SPACE)))
-    - LC(LG(LA(RIGHT)))
+    - Ctl+Gui+Alt+LEFT
+    - Ctl+Gui+Alt+SPACE
+    - Ctl+Gui+Alt+RIGHT
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -73,7 +74,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  Nav2:
+  nav2:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -89,28 +90,28 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - LG(LBKT)
-    - LA(LEFT)
+    - Gui+[
+    - Alt+LEFT
     - PG DN
-    - LA(RIGHT)
-    - LG(RBKT)
+    - Alt+RIGHT
+    - Gui+]
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - LC(LG(LA(U)))
+    - Ctl+Gui+Alt+U
     - {t: ▽, type: trans}
-    - LC(LG(LA(I)))
+    - Ctl+Gui+Alt+I
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {t: LS(LC(TAB)), h: LALT}
-    - {t: LC(TAB), h: LCMD}
-    - {t: LS(LC(TAB)), h: RCMD}
-    - {t: LC(TAB), h: RALT}
-    - {t: LG(GRAVE), h: RCTRL}
-  Symbols:
+    - {t: Sft+Ctl+TAB, h: LALT}
+    - {t: Ctl+TAB, h: LCMD}
+    - {t: Sft+Ctl+TAB, h: RCMD}
+    - {t: Ctl+TAB, h: RALT}
+    - {t: Gui+`, h: RCTRL}
+  sym:
   - ['!', '@', '#', '{', '}', ^, '&', '*', '`', '~']
   - - '|'
     - {t: $, type: held}
@@ -129,7 +130,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  Numbers:
+  num:
   - - '1'
     - '2'
     - '3'
@@ -164,9 +165,9 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - Func
+    - fn
     - {t: ▽, type: trans}
-  Media:
+  med:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
@@ -203,7 +204,7 @@ layers:
     - VOL DN
     - MUTE
     - VOL UP
-  Func:
+  fn:
   - - F1
     - F2
     - F3
@@ -279,4 +280,4 @@ layers:
     - {t: ▽, type: trans}
 combos:
 - p: [24, 25]
-  k: wc3
+  k: {t: wc3, h: toggle}

@@ -42,8 +42,8 @@
       compatible = "zmk,behavior-hold-tap";
       label = "HOMEROW_MODS";
       #binding-cells = <2>;
-      tapping-term-ms = <150>; // produces tap if held longer than tapping-term-ms
-      quick_tap_ms = <150>;    // if double tapped, long-tabs the key instead of hold
+      tapping-term-ms = <250>; // produces tap if held longer than tapping-term-ms
+      quick_tap_ms = <250>;    // if double tapped, long-tabs the key instead of hold
       flavor = "balanced";
       bindings = <&kp>, <&kp>;
     };
