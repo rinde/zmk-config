@@ -61,9 +61,9 @@
         label = "Default";
         display-name = "def";
         bindings = <
-            &none &kp Q         &kp W         &lt MEDIA E   &kp R         &kp T           &kp Y          &kp U          &kp I         &kp O          &kp P              &none
-            &none &hm LSHIFT A  &lt SYM S     &lt NUM D     &lt NAV F     &lt G           &kp H          &hm  J         &lt NUM K     &lt SYM L      &hm RSHIFT COLON   &none
-            &none &kp Z         &kp X         &kp C         &lt NAV2 V    &kp B           &kp N          &kp M          &kp COMMA     &kp DOT        &kp QMARK          &none
+            &none &kp Q         &kp W         &lt MEDIA E         &kp R      &kp T                &kp Y          &kp U               &kp I           &kp O         &kp P        &none
+            &none &hm LSHIFT A  &lt SYM S     &hm LC(LS(LALT)) D  &lt NAV F     &hm LC(LG(LALT)) G   &kp H          &hm LC(LS(LALT)) J  &lt NUM K       &lt SYM L     &hm RSHIFT COLON &none
+            &none &kp Z         &kp X         &kp C               &lt NAV2 V    &kp B                &kp N          &kp M               &kp COMMA       &kp DOT       &kp QMARK        &none
                                         &grave_esc    &hm LALT TAB  &hm LCMD SPACE       &hm RCMD BSPC  &hm RALT ENTER      &hm RCTRL DEL
         >;
     };
@@ -101,8 +101,8 @@
         label = "Numbers";
         display-name = "num";
         bindings = <
-            &none &kp N1  &kp N2  &kp N3  &kp N4  &kp N5     &kp N6  &kp N7  &kp N8  &kp N9  &kp N0 &none
-            &none &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans &none
+            &none &kp N1  &kp N2  &kp N3  &kp N4  &kp N5     &trans  &trans  &trans  &trans  &trans &none
+            &none &kp N6  &kp N7  &kp N8  &kp N9  &kp N0     &trans  &trans  &trans  &trans  &trans &none
             &none &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans &none
                             &trans  &trans  &trans     &trans  &mo FUNC   &trans
         >;
