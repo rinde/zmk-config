@@ -13,14 +13,14 @@ layers:
     - P
   - - {t: A, h: LSHIFT}
     - {t: S, h: sym}
-    - {t: D, h: Ctl+Sft+LALT}
+    - {t: D, h: num}
     - {t: F, h: nav}
-    - {t: G, h: Ctl+Gui+LALT}
+    - G
     - H
-    - {t: J, h: Ctl+Sft+LALT}
+    - J
     - {t: K, h: num}
     - {t: L, h: sym}
-    - {t: '''', h: RSHIFT}
+    - {t: ':', h: RSHIFT}
   - - Z
     - X
     - C
@@ -123,7 +123,7 @@ layers:
     - ;
     - ':'
     - '"'
-  - [\, <, '>', '[', ']', '-', +, ;, ':', /]
+  - [\, <, '>', '[', ']', '-', +, ;, '''', /]
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -131,24 +131,15 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   num:
-  - - '1'
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - '6'
-    - '7'
-    - '8'
-    - '9'
-    - '0'
-    - {t: ▽, type: trans}
+  - ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
@@ -217,12 +208,12 @@ layers:
     - {t: ▽, type: trans}
   - - F6
     - F7
-    - F8
+    - {t: F8, type: held}
     - F9
     - F10
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - F11
