@@ -62,7 +62,7 @@
         display-name = "def";
         bindings = <
             &none &kp Q         &kp W         &lt MEDIA E         &kp R      &kp T                &kp Y          &kp U               &kp I           &kp O         &kp P        &none
-            &none &hm LSHIFT A  &lt SYM S     &hm LC(LS(LALT)) D  &lt NAV F     &hm LC(LG(LALT)) G   &kp H          &hm LC(LS(LALT)) J  &lt NUM K       &lt SYM L     &hm RSHIFT SQT        &none
+            &none &hm LSHIFT A  &lt SYM S     &hm LC(LS(LALT)) D  &lt NAV F     &hm LC(LG(LALT)) G   &kp H          &hm LC(LS(LALT)) J  &lt NUM K       &lt SYM L     &hm RSHIFT COLON &none
             &none &kp Z         &kp X         &kp C               &lt NAV2 V    &kp B                &kp N          &kp M               &kp COMMA       &kp DOT       &kp QMARK        &none
                                         &grave_esc    &hm LALT TAB  &hm LCMD SPACE       &hm RCMD BSPC  &hm RALT ENTER      &hm RCTRL DEL
         >;
@@ -93,7 +93,7 @@
         bindings = <
             &none &kp EXCL  &kp AT    &kp HASH  &kp LBRC  &kp RBRC     &kp CARET  &kp AMPS  &kp ASTRK  &kp GRAVE  &kp TILDE  &none
             &none &kp PIPE  &kp DLLR  &kp PRCNT &kp LPAR  &kp RPAR     &kp UNDER  &kp EQUAL &kp SEMI   &kp COLON  &kp DQT  &none
-            &none &kp BSLH  &kp LT    &kp GT    &kp LBKT  &kp RBKT     &kp MINUS  &kp PLUS  &kp SEMI   &kp COLON  &kp FSLH  &none
+            &none &kp BSLH  &kp LT    &kp GT    &kp LBKT  &kp RBKT     &kp MINUS  &kp PLUS  &kp SEMI   &kp SQT  &kp FSLH  &none
                                &trans    &trans    &trans        &trans     &trans    &trans
         >;
     };
