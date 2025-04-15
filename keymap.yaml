@@ -180,5 +180,9 @@ combos:
   k: {t: sym, h: toggle}
 - p: [20, 21]
   k: {t: sym, h: toggle}
+- p: [13, 14, 15]
+  k: {t: sym, h: toggle}
+- p: [20, 21, 22]
+  k: {t: sym, h: toggle}
 - p: [15, 16]
   k: {t: nav, h: toggle}

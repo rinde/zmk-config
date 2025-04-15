@@ -41,6 +41,16 @@
       key-positions = <20 21>;
       bindings = <&to SYM>;
     };
+    combo_shift_sym_left {
+      timeout-ms = <100>;
+      key-positions = <13 14 15>;
+      bindings = <&to SYM>, <&kp LSHIFT>;
+    };
+    combo_shift_sym_right {
+      timeout-ms = <100>;
+      key-positions = <20 21 22>;
+      bindings = <&to SYM>, <&kp RSHIFT>;
+    };
     combo_nav {
       timeout-ms = <100>;
       key-positions = <15 16>;
