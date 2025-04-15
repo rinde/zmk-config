@@ -34,6 +34,16 @@
       key-positions = <0 10>;
       bindings = <&kp LS(A)>;
     };
+    combo_shift_right {
+      timeout-ms = <100>;
+      key-positions = <9 19>;
+      bindings = <&kp RS(B)>;
+    };
+    combo_test {
+      timeout-ms = <100>;
+      key-positions = <2 3>;
+      bindings = <&kp RS(C)>;
+    };
     // combo_undo {
     //   timeout-ms = <50>;
     //   key-positions = <20 21>;
