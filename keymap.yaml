@@ -272,9 +272,9 @@ layers:
 combos:
 - p: [24, 25]
   k: {t: wc3, h: toggle}
-- p: [1, 11]
+- p: [1, 13]
   k: LSHIFT
-- p: [9, 19]
+- p: [10, 22]
   k: Sft+B
 - p: [2, 3]
   k: Sft+C

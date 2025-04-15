@@ -31,12 +31,12 @@
     };
     combo_shift_left {
       timeout-ms = <100>;
-      key-positions = <1 11>;
+      key-positions = <1 13>;
       bindings = <&kp LSHIFT>;
     };
     combo_shift_right {
       timeout-ms = <100>;
-      key-positions = <9 19>;
+      key-positions = <10 22>;
       bindings = <&kp RS(B)>;
     };
     combo_test {
