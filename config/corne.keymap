@@ -20,6 +20,7 @@
   continue-list = <UNDERSCORE MINUS>;
 };
 
+
 / {
   combos {
     compatible = "zmk,combos";
@@ -29,7 +30,7 @@
       bindings = <&tog WC3>;
     };
     combo_shift_left {
-      timeout-ms = <50>;
+      timeout-ms = <100>;
       key-positions = <0 10>;
       bindings = <&kp LSHIFT>;
     };
@@ -39,9 +40,6 @@
     //   bindings = <&kp LG(Z)>;
     // };
   };
-};
-
-/ {
   behaviors {
     hm: homerow_mods {
       compatible = "zmk,behavior-hold-tap"; // https://zmk.dev/docs/keymaps/behaviors/hold-tap
