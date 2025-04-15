@@ -26,7 +26,7 @@ layers:
   - - ''
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - nav2
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - Gui+[
@@ -53,72 +53,19 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  nav2:
-  - - ''
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - HOME
-    - PG UP
-    - END
-    - {t: ▽, type: trans}
-    - ''
-  - - ''
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - Gui+[
-    - Alt+LEFT
-    - PG DN
-    - Alt+RIGHT
-    - Gui+]
-    - ''
-  - - ''
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - Ctl+Gui+Alt+U
-    - {t: ▽, type: trans}
-    - Ctl+Gui+Alt+I
-    - {t: ▽, type: trans}
-    - ''
-  - - {t: ▽, type: trans}
-    - {t: Sft+Ctl+TAB, h: LALT}
-    - {t: Ctl+TAB, h: LCMD}
-    - {t: Sft+Ctl+TAB, h: RCMD}
-    - {t: Ctl+TAB, h: RALT}
-    - {t: Gui+`, h: RCTRL}
   sym:
-  - ['', '!', '@', '#', '{', '}', ^, '&', '*', '`', '~', '']
-  - ['', '|', $, '%', (, ), _, '=', ;, ':', '"', '']
-  - ['', \, <, '>', '[', ']', '-', +, ;, '''', /, '']
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  num:
   - ['', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '']
   - - ''
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '`'
+    - '['
+    - ']'
+    - '-'
+    - '='
+    - ''''
+    - \
     - ''
   - - ''
     - {t: ▽, type: trans}
@@ -136,7 +83,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - fn
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   med:
   - - ''
@@ -222,7 +169,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {type: held}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
 combos:
 - p: [13, 14]
@@ -234,10 +181,4 @@ combos:
 - p: [20, 21]
   k: {t: sym, h: toggle}
 - p: [15, 16]
-  k: {t: num, h: toggle}
-- p: [19, 20]
-  k: {t: num, h: toggle}
-- p: [4, 16]
   k: {t: nav, h: toggle}
-- p: [16, 28]
-  k: {t: nav2, h: toggle}

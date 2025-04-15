@@ -9,11 +9,9 @@
 
 #define DEFAULT    0
 #define NAV        1
-#define NAV2       2
-#define SYM        3
-#define NUM        4
-#define MEDIA      5
-#define FUNC       6
+#define SYM        2
+#define MEDIA      3
+#define FUNC       4
 
 &caps_word {
   continue-list = <UNDERSCORE MINUS>;
@@ -43,25 +41,10 @@
       key-positions = <20 21>;
       bindings = <&to SYM>;
     };
-    combo_num_left {
-      timeout-ms = <100>;
-      key-positions = <15 16>;
-      bindings = <&to NUM>;
-    };
-    combo_num_right {
-      timeout-ms = <100>;
-      key-positions = <19 20>;
-      bindings = <&to NUM>;
-    };
     combo_nav {
       timeout-ms = <100>;
-      key-positions = <4 16>;
+      key-positions = <15 16>;
       bindings = <&to NAV>;
-    };
-    combo_nav2 {
-      timeout-ms = <100>;
-      key-positions = <16 28>;
-      bindings = <&to NAV2>;
     };
   };
   behaviors {
@@ -98,42 +81,32 @@
         label = "Nav";
         display-name = "nav";
         bindings = <
-            &none &trans  &kp LG(Q)  &kp LG(W)  &trans   &trans             &trans         &kp HOME    &kp UP     &kp END    &trans     &none
-            &none &trans  &trans     &mo NAV2   &trans   &trans             &kp LG(LBKT)   &kp LEFT    &kp DOWN   &kp RIGHT  &kp LG(RBKT)     &none
+            &none &trans  &kp LG(Q)  &kp LG(W)  &trans   &trans             &trans         &kp HOME    &kp UP     &kp END    &trans         &none
+            &none &trans  &trans     &trans     &trans   &trans             &kp LG(LBKT)   &kp LEFT    &kp DOWN   &kp RIGHT  &kp LG(RBKT)   &none
             &none &trans  &trans     &trans     &trans   &trans             &trans         &kp LC(LG(LA(LEFT))) &kp LC(LG(LA(SPACE))) &kp LC(LG(LA(RIGHT))) &trans     &none
                                &trans     &trans   &trans             &trans         &trans      &trans
-        >;
-    };
-    nav2_layer {
-        label = "Nav2";
-        display-name = "nav2";
-        bindings = <
-            &none &trans  &trans    &trans  &trans                 &trans                 &trans                &kp HOME           &kp PG_UP           &kp END            &trans   &none
-            &none &trans  &trans    &trans  &trans                 &trans                 &kp LG(LBKT)          &kp LA(LEFT)       &kp PG_DN           &kp LA(RIGHT)      &kp LG(RBKT)   &none
-            &none &trans  &trans    &trans  &trans                 &trans                 &trans                &kp LC(LG(LA(U)))  &trans              &kp LC(LG(LA(I)))  &trans   &none
-                                                &trans  &hm LALT LS(LC(TAB))  &hm LCMD LC(TAB)     &hm RCMD LS(LC(TAB))  &hm RALT LC(TAB)   &hm RCTRL LG(GRAVE)
         >;
     };
     sym_layer {
         label = "Symbols";
         display-name = "sym";
         bindings = <
-            &none &kp EXCL  &kp AT    &kp HASH  &kp LBRC  &kp RBRC     &kp CARET  &kp AMPS  &kp ASTRK  &kp GRAVE  &kp TILDE  &none
-            &none &kp PIPE  &kp DLLR  &kp PRCNT &kp LPAR  &kp RPAR     &kp UNDER  &kp EQUAL &kp SEMI   &kp COLON  &kp DQT  &none
-            &none &kp BSLH  &kp LT    &kp GT    &kp LBKT  &kp RBKT     &kp MINUS  &kp PLUS  &kp SEMI   &kp SQT  &kp FSLH  &none
-                               &trans    &trans    &trans        &trans     &trans    &trans
+            &none &kp N1  &kp N2  &kp N3    &kp N4  &kp N5            &kp N6    &kp N7    &kp N8    &kp N9  &kp N0    &none
+            &none &trans  &trans  &trans    &kp GRAVE &kp LBKT        &kp RBKT  &kp MINUS &kp EQUAL &kp SQT &kp BSLH  &none
+            &none &trans  &trans  &trans    &trans  &trans            &trans    &trans    &trans    &trans  &trans    &none
+                                  &trans    &trans  &trans            &trans    &trans    &trans
         >;
     };
-    num_layer {
-        label = "Numbers";
-        display-name = "num";
-        bindings = <
-            &none &kp N1  &kp N2  &kp N3  &kp N4  &kp N5     &kp N6  &kp N7  &kp N8  &kp N9  &kp N0 &none
-            &none &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans &none
-            &none &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans &none
-                            &trans  &trans  &trans     &trans  &mo FUNC   &trans
-        >;
-    };
+    // nav2_layer {
+    //     label = "Nav2";
+    //     display-name = "nav2";
+    //     bindings = <
+    //         &none &trans  &trans    &trans  &trans                 &trans                 &trans                &kp HOME           &kp PG_UP           &kp END            &trans   &none
+    //         &none &trans  &trans    &trans  &trans                 &trans                 &kp LG(LBKT)          &kp LA(LEFT)       &kp PG_DN           &kp LA(RIGHT)      &kp LG(RBKT)   &none
+    //         &none &trans  &trans    &trans  &trans                 &trans                 &trans                &kp LC(LG(LA(U)))  &trans              &kp LC(LG(LA(I)))  &trans   &none
+    //                                             &trans  &hm LALT LS(LC(TAB))  &hm LCMD LC(TAB)     &hm RCMD LS(LC(TAB))  &hm RALT LC(TAB)   &hm RCTRL LG(GRAVE)
+    //     >;
+    // };
     media_layer {
         label = "Media";
         display-name = "med";
