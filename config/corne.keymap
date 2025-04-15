@@ -34,27 +34,27 @@
     combo_sym_left {
       timeout-ms = <100>;
       key-positions = <14 15>;
-      bindings = <&lt SYM>;
+      bindings = <&mo SYM>;
     };
     combo_sym_right {
       timeout-ms = <100>;
       key-positions = <20 21>;
-      bindings = <&lt SYM>;
+      bindings = <&mo SYM>;
     };
     combo_shift_sym_left {
       timeout-ms = <100>;
       key-positions = <13 14 15>;
-      bindings = <&lt SYM>, <&kp LSHIFT>;
+      bindings = <&mo SYM>, <&kp LSHIFT>;
     };
     combo_shift_sym_right {
       timeout-ms = <100>;
       key-positions = <20 21 22>;
-      bindings = <&lt SYM>, <&kp RSHIFT>;
+      bindings = <&mo SYM>, <&kp RSHIFT>;
     };
     combo_nav {
       timeout-ms = <100>;
       key-positions = <15 16>;
-      bindings = <&lt NAV>;
+      bindings = <&mo NAV>;
     };
   };
   behaviors {
