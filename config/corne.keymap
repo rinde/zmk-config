@@ -14,7 +14,6 @@
 #define NUM        4
 #define MEDIA      5
 #define FUNC       6
-#define WC3        7
 
 &caps_word {
   continue-list = <UNDERSCORE MINUS>;
@@ -123,16 +122,6 @@
             &none &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans &none
             &none &kp F11  &kp F12  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans &none
                                                 &trans  &trans  &trans     &trans  &trans  &trans
-            >;
-    };
-    wc3_layer {
-        label = "wc3";
-        display-name = "wc3";
-        bindings = <
-            &none &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                 &trans  &trans  &trans  &trans  &trans &none
-            &none &hm LSHIFT A  &kp S &kp D &kp F &kp G                  &trans  &trans  &trans  &trans  &trans &none
-            &none &kp Z         &kp X &kp C &kp V &kp B                  &trans  &trans  &trans  &trans  &trans &none
-                     &grave_esc  &hm LALT TAB  &hm LCMD SPACE      &trans  &trans  &trans
             >;
     };
   };
