@@ -273,4 +273,4 @@ combos:
 - p: [24, 25]
   k: {t: wc3, h: toggle}
 - p: [0, 10]
-  k: LSHIFT
+  k: Sft+A

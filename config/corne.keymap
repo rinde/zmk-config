@@ -24,7 +24,7 @@
 / {
   combos {
     compatible = "zmk,combos";
-	combo_game {
+	  combo_game {
       timeout-ms = <50>;
       key-positions = <24 25>;
       bindings = <&tog WC3>;
@@ -32,7 +32,7 @@
     combo_shift_left {
       timeout-ms = <100>;
       key-positions = <0 10>;
-      bindings = <&kp LSHIFT>;
+      bindings = <&kp LS(A)>;
     };
     // combo_undo {
     //   timeout-ms = <50>;
