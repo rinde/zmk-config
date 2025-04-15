@@ -11,7 +11,7 @@ layers:
     - I
     - O
     - P
-  - - {t: A, h: LSHIFT}
+  - - A
     - {t: S, h: sym}
     - {t: D, h: num}
     - {t: F, h: nav}
@@ -272,3 +272,5 @@ layers:
 combos:
 - p: [24, 25]
   k: {t: wc3, h: toggle}
+- p: [0, 11]
+  k: LSHIFT
