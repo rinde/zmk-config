@@ -34,22 +34,22 @@
     };
     combo_sym_left {
       timeout-ms = <100>;
-      key-positions = <3 4>;
+      key-positions = <27 28>;
       bindings = <&mo SYM>;
     };
     combo_sym_right {
       timeout-ms = <100>;
-      key-positions = <7 8>;
+      key-positions = <31 32>;
       bindings = <&mo SYM>;
     };
     combo_num_left {
       timeout-ms = <100>;
-      key-positions = <27 28>;
+      key-positions = <3 4>;
       bindings = <&mo NUM>;
     };
     combo_num_right {
       timeout-ms = <100>;
-      key-positions = <31 32>;
+      key-positions = <7 8>;
       bindings = <&mo NUM>;
     };
 

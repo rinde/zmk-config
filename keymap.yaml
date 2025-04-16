@@ -17,7 +17,16 @@ layers:
   - - {t: ENTER, h: RALT}
     - {t: DEL, h: RCTRL}
   num:
-  - ['', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+  - - ''
+    - '1'
+    - '2'
+    - {t: '3', type: held}
+    - {t: '4', type: held}
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
   - - '0'
     - ''
     - ''
@@ -35,8 +44,8 @@ layers:
     - ''
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {type: held}
-    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -51,16 +60,7 @@ layers:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   sym:
-  - - ''
-    - '!'
-    - '@'
-    - {t: '#', type: held}
-    - {t: $, type: held}
-    - '%'
-    - ^
-    - '&'
-    - '*'
-    - (
+  - ['', '!', '@', '#', $, '%', ^, '&', '*', (]
   - - )
     - ''
     - ''
@@ -78,8 +78,8 @@ layers:
     - ''
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: held}
+    - {type: held}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -226,13 +226,13 @@ combos:
   k: LSHIFT
 - p: [19, 20]
   k: RSHIFT
-- p: [3, 4]
-  k: sym
-- p: [7, 8]
-  k: sym
 - p: [27, 28]
-  k: num
+  k: sym
 - p: [31, 32]
+  k: sym
+- p: [3, 4]
+  k: num
+- p: [7, 8]
   k: num
 - p: [14, 15]
   k: nav
