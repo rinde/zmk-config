@@ -8,10 +8,11 @@
 };
 
 #define DEFAULT    0
-#define NAV        1
+#define NUM        1
 #define SYM        2
-#define MEDIA      3
-#define FUNC       4
+#define NAV        3
+#define MEDIA      4
+#define FUNC       5
 
 &caps_word {
   continue-list = <UNDERSCORE MINUS>;
@@ -23,38 +24,44 @@
     compatible = "zmk,combos";
     combo_shift_left {
       timeout-ms = <100>;
-      key-positions = <13 14>;
+      key-positions = <15 16>;
       bindings = <&kp LSHIFT>;
     };
     combo_shift_right {
       timeout-ms = <100>;
-      key-positions = <21 22>;
+      key-positions = <19 20>;
       bindings = <&kp RSHIFT>;
     };
     combo_sym_left {
       timeout-ms = <100>;
-      key-positions = <14 15>;
+      key-positions = <3 4>;
       bindings = <&mo SYM>;
     };
     combo_sym_right {
       timeout-ms = <100>;
-      key-positions = <20 21>;
+      key-positions = <7 8>;
       bindings = <&mo SYM>;
     };
-    combo_shift_sym_left {
+    combo_num_left {
       timeout-ms = <100>;
-      key-positions = <13 14 15>;
-      bindings = <&mo SYM &kp LSHIFT>;
+      key-positions = <27 28>;
+      bindings = <&mo NUM>;
     };
-    combo_shift_sym_right {
+    combo_num_right {
       timeout-ms = <100>;
-      key-positions = <20 21 22>;
-      bindings = <&mo SYM &kp RSHIFT>;
+      key-positions = <31 32>;
+      bindings = <&mo NUM>;
     };
-    combo_nav {
+
+     combo_nav {
       timeout-ms = <100>;
-      key-positions = <15 16>;
+      key-positions = <14 15>;
       bindings = <&mo NAV>;
+    };
+    combo_media {
+      timeout-ms = <100>;
+      key-positions = <20 21>;
+      bindings = <&mo MEDIA>;
     };
   };
   behaviors {
@@ -87,6 +94,26 @@
                                               &grave_esc    &hm LALT TAB  &hm LCMD SPACE        &hm RCMD BSPC  &hm RALT ENTER   &hm RCTRL DEL
         >;
     };
+    num_layer {
+        label = "Numbers";
+        display-name = "num";
+        bindings = <
+            &none &kp N1  &kp N2  &kp N3    &kp N4    &kp N5          &kp N6    &kp N7    &kp N8    &kp N9  &kp N0    &none
+            &none &trans  &trans  &trans    &kp GRAVE &kp LBKT        &kp RBKT  &kp MINUS &kp EQUAL &kp SQT &kp BSLH  &none
+            &none &trans  &trans  &trans    &trans    &trans          &trans    &trans    &trans    &trans  &trans    &none
+                                  &trans    &trans    &trans          &trans    &trans    &trans
+        >;
+    };
+    sym_layer {
+        label = "Symbols";
+        display-name = "sym";
+        bindings = <
+            &none &kp EXCL  &kp AT  &kp HASH    &kp DOLLAR  &kp PERCENT           &kp CARET         &kp AMPERSAND   &kp ASTERISK    &kp LPAR  &kp RPAR    &none
+            &none &trans    &trans  &trans      &kp TILDE   &kp LEFT_BRACE        &kp RIGHT_BRACE   &kp UNDERSCORE  &kp PLUS        &kp DQT   &kp PIPE    &none
+            &none &trans    &trans  &trans      &trans      &trans                &trans            &trans          &trans          &trans    &trans      &none
+                                    &trans      &trans      &trans                &trans            &trans          &trans
+        >;
+    };
     nav_layer {
         label = "Nav";
         display-name = "nav";
@@ -95,16 +122,6 @@
             &none &trans  &trans     &trans     &trans   &trans             &kp LG(LBKT)   &kp LEFT    &kp DOWN   &kp RIGHT  &kp LG(RBKT)   &none
             &none &trans  &trans     &trans     &trans   &trans             &trans         &kp LC(LG(LA(LEFT))) &kp LC(LG(LA(SPACE))) &kp LC(LG(LA(RIGHT))) &trans     &none
                                &trans     &trans   &trans             &trans         &trans      &trans
-        >;
-    };
-    sym_layer {
-        label = "Symbols";
-        display-name = "sym";
-        bindings = <
-            &none &kp N1  &kp N2  &kp N3    &kp N4  &kp N5            &kp N6    &kp N7    &kp N8    &kp N9  &kp N0    &none
-            &none &trans  &trans  &trans    &kp GRAVE &kp LBKT        &kp RBKT  &kp MINUS &kp EQUAL &kp SQT &kp BSLH  &none
-            &none &trans  &trans  &trans    &trans  &trans            &trans    &trans    &trans    &trans  &trans    &none
-                                  &trans    &trans  &trans            &trans    &trans    &trans
         >;
     };
     // nav2_layer {
