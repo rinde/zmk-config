@@ -23,43 +23,43 @@
   combos {
     compatible = "zmk,combos";
     combo_shift_left {
-      timeout-ms = <100>;
+      timeout-ms = <50>;
       key-positions = <15 16>;
       bindings = <&kp LSHIFT>;
     };
     combo_shift_right {
-      timeout-ms = <100>;
+      timeout-ms = <50>;
       key-positions = <19 20>;
       bindings = <&kp RSHIFT>;
     };
     combo_sym_left {
-      timeout-ms = <100>;
+      timeout-ms = <50>;
       key-positions = <27 28>;
       bindings = <&mo SYM>;
     };
     combo_sym_right {
-      timeout-ms = <100>;
+      timeout-ms = <50>;
       key-positions = <31 32>;
       bindings = <&mo SYM>;
     };
     combo_num_left {
-      timeout-ms = <100>;
+      timeout-ms = <50>;
       key-positions = <3 4>;
       bindings = <&mo NUM>;
     };
     combo_num_right {
-      timeout-ms = <100>;
+      timeout-ms = <50>;
       key-positions = <7 8>;
       bindings = <&mo NUM>;
     };
 
      combo_nav {
-      timeout-ms = <100>;
+      timeout-ms = <50>;
       key-positions = <14 15>;
       bindings = <&mo NAV>;
     };
     combo_media {
-      timeout-ms = <100>;
+      timeout-ms = <50>;
       key-positions = <20 21>;
       bindings = <&mo MEDIA>;
     };
