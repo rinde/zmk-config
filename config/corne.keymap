@@ -52,8 +52,7 @@
       key-positions = <7 8>;
       bindings = <&mo NUM>;
     };
-
-     combo_nav {
+    combo_nav {
       timeout-ms = <50>;
       key-positions = <14 15>;
       bindings = <&mo NAV>;
@@ -62,6 +61,36 @@
       timeout-ms = <50>;
       key-positions = <20 21>;
       bindings = <&mo MEDIA>;
+    };
+    combo_ctrl_left {
+      timeout-ms = <50>;
+      key-positions = <16 36>;
+      bindings = <&kp LCTRL>;
+    };
+    combo_ctrl_right {
+      timeout-ms = <50>;
+      key-positions = <19 41>;
+      bindings = <&kp RCTRL>;
+    };
+    combo_alt_left {
+      timeout-ms = <50>;
+      key-positions = <16 37>;
+      bindings = <&kp LALT>;
+    };
+    combo_alt_right {
+      timeout-ms = <50>;
+      key-positions = <19 40>;
+      bindings = <&kp RALT>;
+    };
+    combo_cmd_left {
+      timeout-ms = <50>;
+      key-positions = <16 38>;
+      bindings = <&kp LCMD>;
+    };
+    combo_cmd_right {
+      timeout-ms = <50>;
+      key-positions = <19 39>;
+      bindings = <&kp RCMD>;
     };
   };
   behaviors {
@@ -88,10 +117,10 @@
         label = "Default";
         display-name = "def";
         bindings = <
-            &none &kp Q         &kp W         &kp E         &kp R         &kp T                 &kp Y          &kp U            &kp I         &kp O       &kp P              &none
-            &none &kp A         &kp S         &kp D         &kp F         &kp G                 &kp H          &kp J            &kp K         &kp L       &kp SEMICOLON      &none
-            &none &kp Z         &kp X         &kp C         &kp V         &kp B                 &kp N          &kp M            &kp COMMA     &kp DOT     &kp SLASH          &none
-                                              &grave_esc    &hm LALT TAB  &hm LCMD SPACE        &hm RCMD BSPC  &hm RALT ENTER   &hm RCTRL DEL
+            &none &kp Q         &kp W         &kp E    &kp R    &kp T            &kp Y     &kp U       &kp I         &kp O       &kp P              &none
+            &none &kp A         &kp S         &kp D    &kp F    &kp G            &kp H     &kp J       &kp K         &kp L       &kp SEMICOLON      &none
+            &none &kp Z         &kp X         &kp C    &kp V    &kp B            &kp N     &kp M       &kp COMMA     &kp DOT     &kp SLASH          &none
+                                              &kp ESC  &kp TAB  &kp SPACE        &kp BSPC  &kp ENTER   &kp DEL
         >;
     };
     num_layer {
@@ -138,10 +167,10 @@
         label = "Media";
         display-name = "med";
         bindings = <
-            &none &trans  &trans           &trans           &trans           &trans              &trans        &bt BT_PRV    &bt BT_NXT        &trans        &trans &none
-            &none &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI     &trans        &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT    &trans &none
-            &none &trans  &rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD     &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3 &none
-                                                                &trans  &trans  &trans     &kp C_VOL_DN  &kp C_MUTE    &kp C_VOL_UP
+            &none &trans  &kp C_VOL_DN  &kp C_MUTE        &kp C_VOL_UP      &trans              &rgb_ug RGB_BRI   &trans            &trans        &trans &trans &none
+            &none &trans  &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT        &trans              &rgb_ug RGB_BRD   &rgb_ug RGB_TOG   &trans        &trans &trans &none
+            &none &trans  &trans        &trans            &trans            &trans              &rgb_ug RGB_EFF   &trans            &trans        &trans &trans &none
+                                        &trans            &trans            &trans              &kp C_VOL_DN      &kp C_MUTE        &kp C_VOL_UP
         >;
     };
     func_layer {

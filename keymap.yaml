@@ -4,18 +4,8 @@ layers:
   - ['', Q, W, E, R, T, Y, U, I, O]
   - [P, '', '', A, S, D, F, G, H, J]
   - [K, L, ;, '', '', Z, X, C, V, B]
-  - - N
-    - M
-    - ','
-    - .
-    - /
-    - ''
-    - {t: ESC, h: LCTRL, s: '`'}
-    - {t: TAB, h: LALT}
-    - {t: SPACE, h: LCMD}
-    - {t: BSPC, h: RCMD}
-  - - {t: ENTER, h: RALT}
-    - {t: DEL, h: RCTRL}
+  - [N, M, ',', ., /, '', ESC, TAB, SPACE, BSPC]
+  - [ENTER, DEL]
   num:
   - - ''
     - '1'
@@ -139,39 +129,39 @@ layers:
   med:
   - - ''
     - {t: ▽, type: trans}
+    - VOL DN
+    - MUTE
+    - VOL UP
+    - {t: ▽, type: trans}
+    - RGB BRI
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - BT PRV
-    - BT NXT
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - ''
     - ''
     - {t: ▽, type: trans}
-    - RGB TOG
-    - RGB HUI
-    - RGB SAI
-    - RGB BRI
-    - {t: ▽, type: trans}
     - PREV
-  - - {t: PLAY PAUSE, type: held}
-    - {t: NEXT, type: held}
+    - PLAY PAUSE
+    - NEXT
     - {t: ▽, type: trans}
-    - ''
-    - ''
-    - {t: ▽, type: trans}
-    - RGB EFF
-    - RGB HUD
-    - RGB SAD
     - RGB BRD
-  - - BT CLR
-    - {t: BT, h: '0'}
-    - {t: BT, h: '1'}
-    - {t: BT, h: '2'}
-    - {t: BT, h: '3'}
+    - RGB TOG
+  - - {type: held}
+    - {type: held}
+    - {t: ▽, type: trans}
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+  - - RGB EFF
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - ''
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -238,3 +228,15 @@ combos:
   k: nav
 - p: [20, 21]
   k: med
+- p: [16, 36]
+  k: LCTRL
+- p: [19, 41]
+  k: RCTRL
+- p: [16, 37]
+  k: LALT
+- p: [19, 40]
+  k: RALT
+- p: [16, 38]
+  k: LCMD
+- p: [19, 39]
+  k: RCMD
