@@ -9,10 +9,10 @@
 
 #define DEFAULT    0
 #define NUM        1
-#define SYM        2
-#define NAV        3
-#define MEDIA      4
-#define FUNC       5
+// #define SYM        2
+#define NAV        2
+#define MEDIA      3
+#define FUNC       4
 
 &caps_word {
   continue-list = <UNDERSCORE MINUS>;

@@ -64,8 +64,8 @@ layers:
     - ''
     - ''
     - TAB
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: held}
+    - {type: held}
     - LALT
     - LCMD
     - Gui+[
@@ -107,14 +107,14 @@ layers:
     - ''
     - ''
     - {t: ▽, type: trans}
-    - {t: PREV, type: held}
-    - {t: PLAY PAUSE, type: held}
+    - PREV
+    - PLAY PAUSE
     - NEXT
     - {t: ▽, type: trans}
     - RGB BRD
     - RGB TOG
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - - {type: held}
+    - {type: held}
     - {t: ▽, type: trans}
     - ''
     - ''
@@ -155,8 +155,8 @@ layers:
     - F10
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {type: held}
-    - {type: held}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - ''
     - ''
@@ -187,9 +187,9 @@ combos:
 - p: [31, 32]
   k: num
 - p: [14, 15]
-  k: med
+  k: nav
 - p: [20, 21]
-  k: fn
+  k: med
 - p: [16, 36]
   k: LCTRL
 - p: [19, 41]
