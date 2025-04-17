@@ -45,13 +45,13 @@
     //   bindings = <&mo SYM>;
     // };
     combo_num_left {
-      timeout-ms = <50>;
+      timeout-ms = <75>;
       key-positions = <14 15>;
       bindings = <&mo NUM>;
       layers = <DEFAULT>;
     };
     combo_num_right {
-      timeout-ms = <50>;
+      timeout-ms = <75>;
       key-positions = <20 21>;
       bindings = <&mo NUM>;
       layers = <DEFAULT>;
