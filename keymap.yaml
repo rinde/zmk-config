@@ -11,8 +11,8 @@ layers:
     - /
     - ''
     - {t: ESC, h: LCTRL}
-    - SPACE
     - LCMD
+    - SPACE
     - BSPC
   - [ENTER, RCTRL]
   num:
@@ -44,43 +44,9 @@ layers:
     - \
     - ''
     - {t: ▽, type: trans}
-    - LSHIFT
     - LCMD
-    - {t: ▽, type: trans}
-  - - RSHIFT
-    - {t: ▽, type: trans}
-  sym:
-  - ['', '!', '@', '#', $, '%', ^, '&', '*', (]
-  - - )
-    - ''
-    - ''
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - '~'
-    - '{'
-    - '}'
-    - _
-  - - +
-    - '"'
-    - '|'
-    - ''
-    - ''
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - ''
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - LSHIFT
+    - RSHIFT
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   nav:
@@ -98,8 +64,8 @@ layers:
     - ''
     - ''
     - TAB
-    - {type: held}
-    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - LALT
     - LCMD
     - Gui+[
@@ -121,10 +87,10 @@ layers:
     - {t: ▽, type: trans}
     - ''
     - {t: ▽, type: trans}
-    - LSHIFT
     - LCMD
-    - {t: ▽, type: trans}
-  - - RSHIFT
+    - LSHIFT
+    - RSHIFT
+  - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   med:
   - - ''
@@ -141,14 +107,14 @@ layers:
     - ''
     - ''
     - {t: ▽, type: trans}
-    - PREV
-    - PLAY PAUSE
+    - {t: PREV, type: held}
+    - {t: PLAY PAUSE, type: held}
     - NEXT
     - {t: ▽, type: trans}
     - RGB BRD
     - RGB TOG
-  - - {type: held}
-    - {type: held}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - ''
     - ''
@@ -189,8 +155,8 @@ layers:
     - F10
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+  - - {type: held}
+    - {type: held}
     - {t: ▽, type: trans}
     - ''
     - ''
@@ -221,9 +187,9 @@ combos:
 - p: [31, 32]
   k: num
 - p: [14, 15]
-  k: nav
-- p: [20, 21]
   k: med
+- p: [20, 21]
+  k: fn
 - p: [16, 36]
   k: LCTRL
 - p: [19, 41]
