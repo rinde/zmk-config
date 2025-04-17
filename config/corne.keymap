@@ -32,24 +32,24 @@
       key-positions = <19 20>;
       bindings = <&kp RSHIFT>;
     };
-    combo_sym_left {
-      timeout-ms = <50>;
-      key-positions = <27 28>;
-      bindings = <&mo SYM>;
-    };
-    combo_sym_right {
-      timeout-ms = <50>;
-      key-positions = <31 32>;
-      bindings = <&mo SYM>;
-    };
+    // combo_sym_left {
+    //   timeout-ms = <50>;
+    //   key-positions = <27 28>;
+    //   bindings = <&mo SYM>;
+    // };
+    // combo_sym_right {
+    //   timeout-ms = <50>;
+    //   key-positions = <31 32>;
+    //   bindings = <&mo SYM>;
+    // };
     combo_num_left {
       timeout-ms = <50>;
-      key-positions = <3 4>;
+      key-positions = <27 28>;
       bindings = <&mo NUM>;
     };
     combo_num_right {
       timeout-ms = <50>;
-      key-positions = <7 8>;
+      key-positions = <31 32>;
       bindings = <&mo NUM>;
     };
     combo_nav {
@@ -92,6 +92,11 @@
       key-positions = <19 39>;
       bindings = <&kp RCMD>;
     };
+    combo_del {
+      timeout-ms = <100>;
+      key-positions = <19 20 39>;
+      bindings = <&kp DEL>;
+    };
   };
   behaviors {
     hm: homerow_mods {
@@ -120,17 +125,17 @@
             &none &kp Q         &kp W         &kp E    &kp R    &kp T            &kp Y     &kp U       &kp I         &kp O       &kp P              &none
             &none &kp A         &kp S         &kp D    &kp F    &kp G            &kp H     &kp J       &kp K         &kp L       &kp SEMICOLON      &none
             &none &kp Z         &kp X         &kp C    &kp V    &kp B            &kp N     &kp M       &kp COMMA     &kp DOT     &kp SLASH          &none
-                                              &kp ESC  &kp TAB  &kp SPACE        &kp BSPC  &kp ENTER   &kp DEL
+                                              &hm LCTRL ESC   &kp SPACE  &kp LCMD        &kp BSPC  &kp ENTER   &kp RCTRL
         >;
     };
     num_layer {
         label = "Numbers";
         display-name = "num";
         bindings = <
-            &none &kp N1  &kp N2  &kp N3    &kp N4    &kp N5          &kp N6    &kp N7    &kp N8    &kp N9  &kp N0    &none
-            &none &trans  &trans  &trans    &kp GRAVE &kp LBKT        &kp RBKT  &kp MINUS &kp EQUAL &kp SQT &kp BSLH  &none
-            &none &trans  &trans  &trans    &trans    &trans          &trans    &trans    &trans    &trans  &trans    &none
-                                  &trans    &trans    &trans          &trans    &trans    &trans
+            &none &kp N1  &kp N2  &kp N3    &kp N4      &kp N5          &kp N6      &kp N7      &kp N8    &kp N9    &kp N0    &none
+            &none &trans  &trans  &trans    &trans      &trans          &kp GRAVE   &kp MINUS   &kp EQUAL &kp LBKT  &kp RBKT  &none
+            &none &trans  &trans  &trans    &trans      &trans          &trans      &trans      &trans    &kp SQT   &kp BSLH  &none
+                                  &trans    &kp LSHIFT  &trans          &trans      &kp RSHIFT  &trans
         >;
     };
     sym_layer {
@@ -147,10 +152,10 @@
         label = "Nav";
         display-name = "nav";
         bindings = <
-            &none &trans  &kp LG(Q)  &kp LG(W)  &trans   &trans             &trans         &kp HOME    &kp UP     &kp END    &trans         &none
-            &none &trans  &trans     &trans     &trans   &trans             &kp LG(LBKT)   &kp LEFT    &kp DOWN   &kp RIGHT  &kp LG(RBKT)   &none
-            &none &trans  &trans     &trans     &trans   &trans             &trans         &kp LC(LG(LA(LEFT))) &kp LC(LG(LA(SPACE))) &kp LC(LG(LA(RIGHT))) &trans     &none
-                               &trans     &trans   &trans             &trans         &trans      &trans
+            &none &trans    &trans     &trans     &trans      &trans             &trans         &kp HOME    &kp UP     &kp END    &trans        &none
+            &none &kp TAB   &trans     &trans     &kp LALT    &kp LCMD           &kp LG(LBKT)   &kp LEFT    &kp DOWN   &kp RIGHT  &kp LG(RBKT)  &none
+            &none &kp TILDE &trans     &trans     &trans      &trans             &trans         &trans      &trans     &trans     &trans        &none
+                                       &trans     &kp LSHIFT  &kp LCMD           &trans         &kp RSHIFT  &trans   
         >;
     };
     // nav2_layer {

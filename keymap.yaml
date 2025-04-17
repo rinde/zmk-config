@@ -4,50 +4,50 @@ layers:
   - ['', Q, W, E, R, T, Y, U, I, O]
   - [P, '', '', A, S, D, F, G, H, J]
   - [K, L, ;, '', '', Z, X, C, V, B]
-  - [N, M, ',', ., /, '', ESC, TAB, SPACE, BSPC]
-  - [ENTER, DEL]
+  - - N
+    - M
+    - ','
+    - .
+    - /
+    - ''
+    - {t: ESC, h: LCTRL}
+    - SPACE
+    - LCMD
+    - BSPC
+  - [ENTER, RCTRL]
   num:
-  - - ''
-    - '1'
-    - '2'
-    - {t: '3', type: held}
-    - {t: '4', type: held}
-    - '5'
-    - '6'
-    - '7'
-    - '8'
-    - '9'
+  - ['', '1', '2', '3', '4', '5', '6', '7', '8', '9']
   - - '0'
     - ''
     - ''
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - '`'
-    - '['
-    - ']'
     - '-'
   - - '='
+    - '['
+    - ']'
+    - ''
+    - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {type: held}
+    - {type: held}
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - ''''
     - \
     - ''
-    - ''
+    - {t: ▽, type: trans}
+    - LSHIFT
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - ''
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+  - - RSHIFT
     - {t: ▽, type: trans}
   sym:
   - ['', '!', '@', '#', $, '%', ^, '&', '*', (]
@@ -68,8 +68,8 @@ layers:
     - ''
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {type: held}
-    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -86,8 +86,8 @@ layers:
   nav:
   - - ''
     - {t: ▽, type: trans}
-    - Gui+Q
-    - Gui+W
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -97,11 +97,11 @@ layers:
   - - {t: ▽, type: trans}
     - ''
     - ''
-    - {t: ▽, type: trans}
+    - TAB
     - {type: held}
     - {type: held}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - LALT
+    - LCMD
     - Gui+[
     - LEFT
   - - DOWN
@@ -109,22 +109,22 @@ layers:
     - Gui+]
     - ''
     - ''
-    - {t: ▽, type: trans}
+    - '~'
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - Ctl+Gui+Alt+LEFT
-    - Ctl+Gui+Alt+SPACE
-    - Ctl+Gui+Alt+RIGHT
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - ''
     - {t: ▽, type: trans}
+    - LSHIFT
+    - LCMD
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
+  - - RSHIFT
     - {t: ▽, type: trans}
   med:
   - - ''
@@ -217,12 +217,8 @@ combos:
 - p: [19, 20]
   k: RSHIFT
 - p: [27, 28]
-  k: sym
-- p: [31, 32]
-  k: sym
-- p: [3, 4]
   k: num
-- p: [7, 8]
+- p: [31, 32]
   k: num
 - p: [14, 15]
   k: nav
@@ -240,3 +236,5 @@ combos:
   k: LCMD
 - p: [19, 39]
   k: RCMD
+- p: [19, 20, 39]
+  k: DEL
