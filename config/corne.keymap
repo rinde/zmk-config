@@ -26,11 +26,13 @@
       timeout-ms = <50>;
       key-positions = <15 16>;
       bindings = <&kp LSHIFT>;
+      layers = <DEFAULT>;
     };
     combo_shift_right {
       timeout-ms = <50>;
       key-positions = <19 20>;
       bindings = <&kp RSHIFT>;
+      layers = <DEFAULT>;
     };
     // combo_sym_left {
     //   timeout-ms = <50>;
@@ -44,58 +46,63 @@
     // };
     combo_num_left {
       timeout-ms = <50>;
-      key-positions = <27 28>;
+      key-positions = <14 15>;
       bindings = <&mo NUM>;
+      layers = <DEFAULT>;
     };
     combo_num_right {
       timeout-ms = <50>;
-      key-positions = <31 32>;
+      key-positions = <20 21>;
       bindings = <&mo NUM>;
+      layers = <DEFAULT>;
     };
     combo_nav {
       timeout-ms = <50>;
-      key-positions = <14 15>;
+      key-positions = <13 14>;
       bindings = <&mo NAV>;
+      layers = <DEFAULT>;
     };
     combo_media {
       timeout-ms = <50>;
-      key-positions = <20 21>;
+      key-positions = <21 22>;
       bindings = <&mo MEDIA>;
+      layers = <DEFAULT>;
     };
-    combo_ctrl_left {
-      timeout-ms = <50>;
-      key-positions = <16 36>;
-      bindings = <&kp LCTRL>;
-    };
-    combo_ctrl_right {
-      timeout-ms = <50>;
-      key-positions = <19 41>;
-      bindings = <&kp RCTRL>;
-    };
-    combo_alt_left {
-      timeout-ms = <50>;
-      key-positions = <16 37>;
-      bindings = <&kp LALT>;
-    };
-    combo_alt_right {
-      timeout-ms = <50>;
-      key-positions = <19 40>;
-      bindings = <&kp RALT>;
-    };
-    combo_cmd_left {
-      timeout-ms = <50>;
-      key-positions = <16 38>;
-      bindings = <&kp LCMD>;
-    };
-    combo_cmd_right {
-      timeout-ms = <50>;
-      key-positions = <19 39>;
-      bindings = <&kp RCMD>;
-    };
+    // combo_ctrl_left {
+    //   timeout-ms = <50>;
+    //   key-positions = <16 36>;
+    //   bindings = <&kp LCTRL>;
+    // };
+    // combo_ctrl_right {
+    //   timeout-ms = <50>;
+    //   key-positions = <19 41>;
+    //   bindings = <&kp RCTRL>;
+    // };
+    // combo_alt_left {
+    //   timeout-ms = <50>;
+    //   key-positions = <16 37>;
+    //   bindings = <&kp LALT>;
+    // };
+    // combo_alt_right {
+    //   timeout-ms = <50>;
+    //   key-positions = <19 40>;
+    //   bindings = <&kp RALT>;
+    // };
+    // combo_cmd_left {
+    //   timeout-ms = <50>;
+    //   key-positions = <16 38>;
+    //   bindings = <&kp LCMD>;
+    // };
+    // combo_cmd_right {
+    //   timeout-ms = <50>;
+    //   key-positions = <19 39>;
+    //   bindings = <&kp RCMD>;
+    // };
     combo_del {
       timeout-ms = <100>;
       key-positions = <19 20 39>;
       bindings = <&kp DEL>;
+      layers = <DEFAULT>;
     };
   };
   behaviors {
@@ -133,7 +140,7 @@
         display-name = "num";
         bindings = <
             &none &kp N1    &kp N2  &kp N3    &kp N4      &kp N5          &kp N6      &kp N7      &kp N8    &kp N9    &kp N0    &none
-            &none &trans    &trans  &trans    &trans      &trans          &kp GRAVE   &kp MINUS   &kp EQUAL &kp LBKT  &kp RBKT  &none
+            &none &trans    &trans  &trans    &kp LSHIFT  &trans          &kp GRAVE   &kp MINUS   &kp EQUAL &kp LBKT  &kp RBKT  &none
             &none &kp LALT  &trans  &trans    &trans      &trans          &trans      &trans      &trans    &kp SQT   &kp BSLH  &none
                                     &trans    &kp LCMD    &kp LSHIFT      &kp RSHIFT  &trans      &trans
         >;
@@ -152,10 +159,10 @@
         label = "Nav";
         display-name = "nav";
         bindings = <
-            &none &trans    &trans     &trans     &trans      &trans             &trans         &kp HOME    &kp UP     &kp END    &trans        &none
-            &none &kp TAB   &trans     &trans     &kp LALT    &kp LCMD           &kp LG(LBKT)   &kp LEFT    &kp DOWN   &kp RIGHT  &kp LG(RBKT)  &none
-            &none &kp TILDE &trans     &trans     &trans      &trans             &trans         &trans      &trans     &trans     &trans        &none
-                                       &trans     &kp LCMD    &kp LSHIFT         &kp RSHIFT     &trans      &trans
+            &none &trans    &trans     &trans       &kp TAB     &trans             &trans         &trans      &kp UP     &trans     &trans        &none
+            &none &trans    &trans     &kp LALT     &kp LCMD    &trans             &kp LG(LBKT)   &kp LEFT    &kp DOWN   &kp RIGHT  &kp LG(RBKT)  &none
+            &none &trans     &trans    &trans       &kp TILDE   &trans             &trans         &trans      &trans     &trans     &trans        &none
+                                       &trans       &kp LCMD    &kp LSHIFT         &kp RSHIFT     &trans      &trans
         >;
     };
     // nav2_layer {

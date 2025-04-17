@@ -21,9 +21,9 @@ layers:
     - ''
     - ''
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {type: held}
+    - {type: held}
+    - LSHIFT
     - {t: ▽, type: trans}
     - '`'
     - '-'
@@ -34,8 +34,8 @@ layers:
     - ''
     - LALT
     - {t: ▽, type: trans}
-    - {type: held}
-    - {type: held}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -54,20 +54,20 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+    - TAB
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - HOME
     - UP
-    - END
+    - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - ''
     - ''
-    - TAB
     - {type: held}
     - {type: held}
     - LALT
     - LCMD
+    - {t: ▽, type: trans}
     - Gui+[
     - LEFT
   - - DOWN
@@ -75,10 +75,10 @@ layers:
     - Gui+]
     - ''
     - ''
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - '~'
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -113,9 +113,9 @@ layers:
     - {t: ▽, type: trans}
     - RGB BRD
     - RGB TOG
-  - - {type: held}
+  - - {t: ▽, type: trans}
     - {type: held}
-    - {t: ▽, type: trans}
+    - {type: held}
     - ''
     - ''
     - {t: ▽, type: trans}
@@ -180,27 +180,22 @@ layers:
 combos:
 - p: [15, 16]
   k: LSHIFT
+  l: [def]
 - p: [19, 20]
   k: RSHIFT
-- p: [27, 28]
-  k: num
-- p: [31, 32]
-  k: num
+  l: [def]
 - p: [14, 15]
-  k: nav
+  k: num
+  l: [def]
 - p: [20, 21]
+  k: num
+  l: [def]
+- p: [13, 14]
+  k: nav
+  l: [def]
+- p: [21, 22]
   k: med
-- p: [16, 36]
-  k: LCTRL
-- p: [19, 41]
-  k: RCTRL
-- p: [16, 37]
-  k: LALT
-- p: [19, 40]
-  k: RALT
-- p: [16, 38]
-  k: LCMD
-- p: [19, 39]
-  k: RCMD
+  l: [def]
 - p: [19, 20, 39]
   k: DEL
+  l: [def]
