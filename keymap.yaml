@@ -13,7 +13,7 @@ layers:
     - {t: ESC, h: LCTRL}
     - LCMD
     - SPACE
-    - BSPC
+    - {t: BSPC, s: DEL}
   - [ENTER, RCTRL]
   num:
   - ['', '1', '2', '3', '4', '5', '6', '7', '8', '9']
@@ -195,7 +195,4 @@ combos:
   l: [def]
 - p: [21, 22]
   k: med
-  l: [def]
-- p: [19, 20, 39]
-  k: DEL
   l: [def]
