@@ -32,7 +32,7 @@ layers:
     - ']'
     - ''
     - ''
-    - {t: ▽, type: trans}
+    - LALT
     - {t: ▽, type: trans}
     - {type: held}
     - {type: held}
@@ -45,7 +45,7 @@ layers:
     - ''
     - {t: ▽, type: trans}
     - LSHIFT
-    - {t: ▽, type: trans}
+    - LCMD
     - {t: ▽, type: trans}
   - - RSHIFT
     - {t: ▽, type: trans}
