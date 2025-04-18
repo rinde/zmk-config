@@ -201,7 +201,7 @@
         label = "Symbols";
         display-name = "sym";
         bindings = <
-            &none &trans    &trans  &trans      &trans      &trans                &kp EXCL        &kp AT          &kp HASH      &kp LPAR      &kp RPAR      &none
+            &none &trans    &trans  &trans      &trans      &trans                &kp HASH        &kp AT          &kp EXCL      &kp LPAR      &kp RPAR      &none
             &none &trans    &trans  &trans      &trans      &trans                &kp PIPE        &kp UNDERSCORE  &kp ASTERISK  &kp LBKT      &kp RBKT      &none
             &none &trans    &trans  &trans      &trans      &trans                &kp AMPERSAND   &kp DQT         &kp SQT       &kp LBRC      &kp RBRC      &none
                                     &trans      &trans      &trans                &kp EQUAL       &kp MINUS       &kp PLUS    
