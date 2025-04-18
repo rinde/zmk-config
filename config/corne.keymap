@@ -126,7 +126,7 @@
         hold-trigger-key-positions = <6 7 8 9 10 18 19 20 21 22 30 31 32 33 34 39 40 41>; // List of keys on the right side of the keyboard
         hold-trigger-on-release;
     };
-    hmlm: home_row_mod_left {
+    hmlm: home_row_mod_left_mo {
         compatible = "zmk,behavior-hold-tap";
         #binding-cells = <2>;
         flavor = "balanced";
@@ -148,7 +148,7 @@
         hold-trigger-key-positions = <1 2 3 4 5 13 14 15 16 17 25 26 27 28 29 36 37 38>; // List of keys on the left side of the keyboard
         hold-trigger-on-release;
     };
-    hmrm: home_row_mod_right {
+    hmrm: home_row_mod_right_mo {
         compatible = "zmk,behavior-hold-tap";
         #binding-cells = <2>;
         flavor = "balanced";
@@ -241,9 +241,9 @@
         label = "Func";
         display-name = "fn";
         bindings = <
-            &none &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans  &trans  &trans  &trans  &trans &none
-            &none &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &trans  &trans  &trans  &trans  &trans &none
-            &none &kp F11  &kp F12  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans &none
+            &none &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &none
+            &none &kp F11  &kp F12  &kp F13 &kp F14 &kp F15    &kp F16  &kp F17  &kp F18 &kp F19 &kp F20  &none
+            &none &kp F21  &kp F22  &kp F23 &kp F24 &trans     &trans   &trans   &trans  &trans  &trans   &none
                                                 &trans  &trans  &trans     &trans  &trans  &trans
             >;
     };
