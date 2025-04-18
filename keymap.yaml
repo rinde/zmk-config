@@ -95,7 +95,7 @@ layers:
     - {type: held}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '|'
+    - '&'
     - _
   - - '*'
     - '['
@@ -107,7 +107,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  - - '&'
+  - - '|'
     - '"'
     - ''''
     - '{'
