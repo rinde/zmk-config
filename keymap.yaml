@@ -72,7 +72,7 @@ layers:
     - ''
     - '~'
     - LCMD
-    - LSHIFT
+    - SPACE
     - RSHIFT
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}

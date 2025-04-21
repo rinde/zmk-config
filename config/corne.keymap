@@ -192,7 +192,7 @@
             &none &kp N1    &kp N2      &kp N3      &kp N4      &kp N5          &trans      &trans      &trans    &trans    &trans    &none
             &none &kp N6    &kp N7      &kp N8      &kp N9      &kp N0          &trans      &trans      &trans    &trans    &trans    &none
             &none &kp BSLH  &kp DOLLAR  &kp CARET   &kp GRAVE   &kp PERCENT     &trans      &trans      &trans    &trans    &trans    &none
-                                        &kp TILDE   &kp LCMD    &kp LSHIFT      &kp RSHIFT  &trans      &trans
+                                        &kp TILDE   &kp LCMD    &kp SPACE      &kp RSHIFT  &trans      &trans
 
                                         
         >;
